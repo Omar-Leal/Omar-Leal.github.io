@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.625em;
+ 
+  
+}
+
+.container {	
+  border: 2px solid burlywood;
+	height: inherit;
+	width: 100%;
+	max-width: 71.875em;
+	margin-left: auto;
+  margin-right: auto;  
+	display: inherit;
+	justify-content: inherit;  
+}
+
+.header-section {
+  height: 120px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  border: 1px solid palegreen;
+
+  
+	
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+	justify-content: space-between;
+	height: inherit;
+}
+
+.main-navigation {
+  height: inherit;
+}
+
+.main-ol {
+  height: inherit;
+  display: flex;  
+  list-style: none;
+  align-items: center;  
+}
+
+.main-ol li {
+   margin-right: 3.5em;
+}
+
+.main-ol a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-logo {
+  display: inherit;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+/*     -----  Main Section ----       */
+
+.main-section {
+  background-color: darkcyan;
+  width: 100%;
+}
+
+.hero {  
+  background-color: rgb(216, 216, 216);
+  border-radius: 12px;
+  position: relative;
+  bottom: -200px;  
+  width: 100%;
+  
+}
+
+.flex-hero {  
+  display: flex;  
+  width: 100%;  
+  padding: 30px;   
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  
+}
+
+.hero-image img {
+  width: 100%;  
+  height: auto;
+  border-radius: 8px;
+}
+
+.hero-text {   
+  width: 100%;
+  margin-left: 55px;
+  margin-bottom: 100px;  
+  padding: 30px;
+  vertical-align: middle;
+  align-self: center;
+   
+}
+
+.hero-text h1 {
+  font-size: 3.000em;
+}
+
+.hero-text h2 {
+  margin-bottom: 20px;
+  font-size: 1.000em;
+}
+
+.hero-text h6 {
+  font-size: 0.875em;
+}
+
+.hero-text p {
+  margin-bottom: 40px;
+  font-size: 1.125em;
+}
+
+.contactInfo li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.contactInfo a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+/* ---- footer area --- */
+
+.main-footer {
+  display: flex;
+  height: 4em;
+}
+
+.main-footer p {
+  
+}
+
+.footer1 {
+  min-height: inherit;
+  flex: 50%;
+  background-color: coral;
+  text-align: center;
+  padding: 1em;
+  
+}
+
+.footer2 {
+  min-height: inherit;
+  flex: 50%;
+  background-color: cyan;
+  text-align: center;
+  padding: 1em;
+}
+

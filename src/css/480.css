@@ -1,0 +1,49 @@
+@media screen and (max-width: 480px){
+
+
+
+
+
+
+
+	/*    ----- About section --- */
+
+.about-section {
+	padding-top: 50%;
+		
+}
+	 
+
+.about-content {
+	display: block;
+}
+
+.aboutMe {
+  width: 100%;
+}
+
+.skill-wrapper {
+  width: 100%;
+}
+
+/* ... footer area ... */
+
+.main-footer {
+	flex-direction: column;
+  }
+  
+  
+  
+  .footer1 {
+	
+	
+  }
+  
+  .footer2 {
+	
+  }
+
+
+
+
+}

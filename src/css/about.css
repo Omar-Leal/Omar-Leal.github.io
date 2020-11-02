@@ -1,0 +1,153 @@
+.about-section {
+ padding-top: 20%;
+ 
+}
+
+.about-content {  
+	border: 1px solid red;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+	min-height: 360px;	
+  margin-bottom: 5em;   
+  }
+  
+.aboutMe {	
+  flex: 1;	  
+  padding: 0;
+  
+	    
+	}
+	
+.aboutMe-wrapper {
+  
+  
+}	
+  
+.aboutMe-title {
+	font-size: 36px;
+	margin-bottom: 25px;
+	color: rgb(93 93 93);
+    
+  }
+  
+.aboutMe-description {
+	font-size: 1em;
+	line-height: 26px;
+	color:  #777777;
+    
+  }
+  
+	/* Skills section */
+	
+.skill-wrapper {
+  flex: 1;
+  
+}	
+
+.skills {
+	max-width: 100%;
+    
+  }
+  
+.skills-container {
+  height: inherit;
+  
+  
+  }
+  
+.skills-title {
+	font-size: 36px;
+	color: rgb(93 93 93);
+  }
+  
+.skills h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+	color:  #777777;
+   
+  }
+  
+.skills li {
+  margin: 20px 0;
+  list-style: none;
+  }
+  
+.bar {
+	background: #eeeeee;
+	display: block;
+	height: 12px; 
+	border-radius: 10px;
+	overflow: hidden;    
+  
+  }
+  
+.bar span {
+	height: 12px;
+	float: left;
+	background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  }
+  
+  .html {
+    width: 90%;
+    animation: html 4s;
+  }
+  
+  .ccs3 {
+    width: 65%;
+    animation: css3 5s;
+  }
+  
+  .javascript {
+    width: 75%;
+    animation: javascript 6s;
+  }
+  
+  .xd {
+    width: 60%;
+    animation: xd 6s;
+  }
+  
+  
+  @keyframes html {
+    0% {
+      width: 0%;
+    }
+    100%{
+      width: 90%;
+    }
+  }
+  
+  @keyframes css3 {
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 65%;
+    }
+  }
+  
+  @keyframes javascript {
+    0% {
+      width: 0%;
+    }
+    100%{
+      width: 75%;
+    }
+  }
+  
+  @keyframes xd {
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 65%;
+    }
+  }
+  
+  
+  

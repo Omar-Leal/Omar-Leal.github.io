@@ -1,0 +1,131 @@
+.experience-section {
+	min-height: 57.625em;
+	display: flex;
+	background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+
+.wrapper2 {	
+	width: 100%;
+	height: auto;
+}
+
+.experienceContainer {
+	border: 1px solid black;
+	width: 100%;
+	min-height: 42.625em;
+	margin-top: 10.625em;
+	margin-left: auto;
+	margin-right: auto;  
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.containerButtoms {
+	width: 100%;
+	display: flex;	
+	justify-content: space-around;
+	margin-bottom: 7.5em;
+}
+
+.buttom1 {
+	flex: 1;
+	width: 10.8125em; 
+	min-inline-size: 52px;
+	border: none;
+	margin: 0px;
+	line-height: 50px;
+	border-radius: 5px;
+	padding: 0px 40px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+	border: 1px solid #9ab5f5;
+	background: rgba(255, 255, 255, 0.1);
+	
+}
+
+.buttom1:active {
+	background: #fff;
+	color: #222222;
+
+}
+
+.buttom2 {
+	flex: 2;
+	font-size: 13px;
+	width: 10.8125em; 
+	height: 52px;
+	border: none; 
+	margin-left: 20px;
+
+}
+
+.jobsList {
+	min-height: 628px; 
+	background-color: coral;
+	width: 100%;
+}
+
+.jobsList-1 {
+	max-width: 460px;
+	margin: auto;
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	list-style: none;
+}
+
+.jobsList-1::before {
+	content: "";
+	min-height: 100%;
+	width: 0.3125em;
+	background: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	left: 46%;
+	transform: translateX(-50%);
+	top: -5px;
+}
+
+.jobsList-1 li {
+	margin-bottom: 60px;
+	position: relative;
+}
+
+.spanList {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: block;
+	background: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	left: 46%;
+	top: 30px;
+	transform: translateX(-50%);
+}
+
+.spanList::before {
+	content: '';
+	height: 7px;
+	width: 7px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 52%;
+	top: 4px;
+	transform: translateX(-50%);
+}
+
+
+
+.jobItem {
+	display: flex; 
+	align-items: center;
+}
+
+.jobItem-title {
+  padding-right: 100px;
+}
+
+.jobItem-content-video {
+	padding-left: 15px;
+}
