@@ -7,15 +7,17 @@
 .wrapper2 {	
 	width: 100%;
 	height: auto;
+	
 }
 
 .experienceContainer {	
 	width: 100%;
 	min-height: 42.625em;
-	margin-top: 10.625em;
+	margin-top: 4em;
 	margin-left: auto;
 	margin-right: auto;  
 	color: rgba(255, 255, 255, 0.75);
+	border: 1px solid black;
 }
 
 .containerButtoms {
@@ -36,8 +38,7 @@
 	padding: 0px 40px;
 	font-size: 13px;
 	font-weight: 500;
-	color: #fff;
-	font-family: "Roboto", sans-serif;
+	color: #fff;	
 	border: 1px solid #9ab5f5;
 	background: rgba(255, 255, 255, 0.1);
 	
@@ -62,6 +63,9 @@
 .jobsList {
 	min-height: 628px; 	
 	width: 100%;
+	border: 1px dashed black;
+	padding-left: 25px;
+	
 }
 
 .jobsList-1 {

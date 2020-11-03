@@ -176,6 +176,11 @@
 
 /* ---- 480px devices ----- */
 @media screen and (max-width: 480px){
+/* --- hero area --- */
+.hero {
+  bottom: -60px;
+}
+
 /*    ----- About section --- */
 .about-section {
 	padding-top: 30%;		
@@ -210,9 +215,16 @@
   text-align: center;
 }
 
+/* --- experience area --- */ 
+.experienceContainer {
+  padding-left: 10%;
+}
+
+
 /* ... footer area ... */
 
 .main-footer {
+  margin-top: 40%;
   flex-direction: column;
   
 }
@@ -231,7 +243,7 @@
 
 @media screen and (max-width: 375px){
 .container {
-  max-width: 320px;
+  max-width: 375px;
 }  
 .main-navigation {
   display: none;
