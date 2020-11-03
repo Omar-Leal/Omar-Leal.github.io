@@ -8,47 +8,33 @@
       
   }
   
-.bio-head {
-  border: 2px dashed yellow;
+.bio-head {  
 	width: 100%;
 	margin-bottom: 1.25em;
 }  
   
-.bioHR{
-	width: 70px;
-	margin-top: 65px;
-	margin-bottom: 60px;
-	margin-left: 47%;
-	color: #45c0d6;
-	background-color: #45c0d6;
-	border: none;
-	border-radius: 10px;
-}
+
   
 .bio-h2{
 	font-size: calc(18px + 2vw);
 	color: rgb(93 93 93);
 }
   
-.bio-text{
- border: 1px solid green;
- font-size: 16px;	
- color: #777777;
- max-width: 500px;
- width: 100%;
- margin: 0 auto;
-  
+.bio-text{	
+	font-size: 16px;	
+	color: #777777;
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;  
 
 }
     
 .cuadros{	
 	min-height: 482px;	
 	margin: 0 auto;	
-  display: flex;  	
+	display: flex;  	
 	align-items: center;	
-	position: relative; 
-
-	  
+	position: relative;  
 		
 } 
  
