@@ -3,8 +3,7 @@
  
 }
 
-.about-content {  
-	
+.about-content { 	
 	width: 100%;
 	height: auto;
 	padding: 0;
@@ -17,22 +16,16 @@
   
 .aboutMe {	
   flex: 1;	  
-  padding: 0;
-  
-	    
-	}
+  padding: 0; 	    
+}
 	
-.aboutMe-wrapper {
-  
-  
-}	
-  
+
 .aboutMe-title {
 	font-size: 36px;
 	margin-bottom: 25px;
 	color: rgb(93 93 93);
     
-  }
+}
   
 .aboutMe-description {
 	font-size: 1em;
@@ -40,7 +33,7 @@
   color:  #777777;  
   width: 90%;
     
-  }
+}
   
 	/* Skills section */
 	

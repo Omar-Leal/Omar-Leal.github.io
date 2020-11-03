@@ -4,17 +4,14 @@
 	text-align: center;
 	margin-bottom: 80px; 
 	color: #777777;
-	
-      
-  }
+	     
+}
   
 .bio-head {  
 	width: 100%;
 	margin-bottom: 1.25em;
 }  
-  
-
-  
+    
 .bio-h2{
 	font-size: calc(18px + 2vw);
 	color: rgb(93 93 93);
@@ -25,8 +22,7 @@
 	color: #777777;
 	max-width: 500px;
 	width: 100%;
-	margin: 0 auto;  
-
+	margin: 28px auto;  
 }
     
 .cuadros{	
@@ -34,7 +30,9 @@
 	margin: 0 auto;	
 	display: flex;  	
 	align-items: center;	
-	position: relative;  
+	position: relative; 
+	top: 60px; 
+
 		
 } 
  
@@ -50,8 +48,7 @@
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.18);
 	background-color: white;
 	color: #777777;
-  border-radius: 12px;
-  	
+  border-radius: 12px;  	
 }
   
 .cuadro2{  		
@@ -64,8 +61,7 @@
 	transform: scale(1.1);	
 	z-index: 4;
 	color: rgb(235, 235, 235);
-	border-radius: 12px;
-			
+	border-radius: 12px;			
 }
   
 .cuadro3{	  
@@ -76,5 +72,4 @@
 	background-color: white;
 	color: #777777;
 	border-radius: 12px;
-
 }

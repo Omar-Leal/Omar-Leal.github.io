@@ -60,14 +60,13 @@
 }
 	
 .flex-hero {
-	flex-direction: column;
+  flex-direction: column;
 }
 	
 .hero-text {
 	width: 100%;
 	text-align: center;
-	margin-bottom: 10px;
-	border: 1px dashed green;
+	margin-bottom: 10px;	
 	position: static;
 	
 }	

@@ -9,8 +9,7 @@
 	height: auto;
 }
 
-.experienceContainer {
-	border: 1px solid black;
+.experienceContainer {	
 	width: 100%;
 	min-height: 42.625em;
 	margin-top: 10.625em;
@@ -61,8 +60,7 @@
 }
 
 .jobsList {
-	min-height: 628px; 
-	background-color: coral;
+	min-height: 628px; 	
 	width: 100%;
 }
 
