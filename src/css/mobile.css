@@ -1,40 +1,36 @@
-/* --- 834px devices -- */
-@media screen and (max-width: 834px){
 
-.bio {
-	padding: auto;
-}
-
-.cuadros {		
-	width: 100%;
-	flex-direction: column-reverse;		
-	margin: 0%;
-	
+/* --- laptop HiDPI 1440px --- */
+@media screen and (max-width: 1440px){
+  .container {
+    max-width: 1280px;
+  }
 }
 
-.cuadro1 {
-	flex: 100%;
-	width: 100%;
-	
+@media screen and (max-width: 1280px){
+  .container {
+    max-width: 1150px;
+  }
 }
-	
-.cuadro2 {	
-	width: 100%;
 
-}
-	
-	
-.cuadro3 {
-	width: 100%;
-}
-		
+
+@media screen and (max-width: 1150px){
+  .container {
+    max-width: 1024px;
+  }
+  
   }
 
+@media screen and (max-width: 1024px){
+	.container{
+    max-width: 960px;
+  }
+
+  } 
 
 /* ::: 990px devices ::: */
-@media screen and (max-width: 990px){
+@media screen and (max-width: 960px){
 .container {
-	max-width: 720px;
+	max-width: 834px;
 }
 	
 .header-section {
@@ -70,11 +66,33 @@
 	position: static;
 	
 }	
-	
-.about-content {
-	flex-direction: column;
+/* ---- about area ---- */	
+.about-content {  
+  padding: 30px;  
 }
-	
+
+.about-section {
+  padding-top: 20%;
+}
+.aboutMe-title {
+  text-align: left;
+}
+.aboutMe-description {
+  width: 85%;
+  text-align: left;
+}
+
+.skill-wrapper {
+  width: 100%;
+  padding-top: 0;
+}
+
+.skills-title {
+  text-align: center;
+}
+  
+
+/* --- bio area ---- */
 .cuadros {		
 	width: 100%;
 	flex-direction: column-reverse;		
@@ -83,11 +101,138 @@
 }
 	
 	
-	}
+  }
+
+
+/* --- 834px devices -- */
+@media screen and (max-width: 834px){
+.container {
+  max-width: 720px;
+}
+
+.bio {
+  padding: auto;
+}
+
+.cuadros {		
+  width: 100%;
+  flex-direction: column-reverse;		
+  margin: 0%;
+  
+}
+
+.cuadro1 {
+  flex: 100%;
+  width: 100%;
+  
+}
+  
+.cuadro2 {	
+  width: 100%;
+
+}
+  
+  
+.cuadro3 {
+  width: 100%;
+}
+      
+    }
+
+
+
+@media screen and (max-width: 720px){
+.about-section {
+  padding-top: 28%;
+}
+
+.about-content {
+  flex-direction: column;
+  padding: 30px;     
+}
+.aboutMe-title {
+  text-align: center;
+}
+.aboutMe-description {
+  width: 100%;
+  text-align: center;
+}
+
+.skill-wrapper {
+  width: 100%;
+  padding-top: 10%;
+}
+
+.skills-title {
+  text-align: center;
+}
+
+.main-footer {
+  flex-direction: column;
+}
+  
+}
+
+
+/* ---- 480px devices ----- */
+@media screen and (max-width: 480px){
+/*    ----- About section --- */
+.about-section {
+	padding-top: 30%;		
+}
+	 
+.about-content {
+  display: block;  
+  padding: 30px;
+  margin-bottom: 1em;
+  
+}
+
+.aboutMe {
+  width: 100%;
+}
+
+.aboutMe-title {
+  text-align: center;
+}
+
+.aboutMe-description {
+  width: 100%;
+  
+}
+
+.skill-wrapper {
+  width: 100%;
+  padding-top: 10%;
+}
+
+.skills-title {
+  text-align: center;
+}
+
+/* ... footer area ... */
+
+.main-footer {
+  flex-direction: column;
+  
+}
+  
+  }
+  
+@media screen and (min-width: 480px){
+  .cuadro2{
+    transform: scale(1.1);	
+  }
+}
+
+
 
 /* ::: 375px devices ::::: */ 
 
 @media screen and (max-width: 375px){
+.container {
+  max-width: 320px;
+}  
 .main-navigation {
   display: none;
 }
@@ -160,9 +305,13 @@
 
 
 /*    ----- About section --- */
-
+.about-section {
+	padding-top: 20%;		
+}
+	
 .about-content {
-	display: block;
+  display: block;
+  margin-bottom: 1em;   
 }
 
 .aboutMe {
@@ -223,16 +372,15 @@
 
 /* .... iPad Pro 1024 ...*/
 
-@media screen and (max-width: 1024px){
-	
 
-}
 
-@media screen and (max-width: 1150px){
-.container {
-	max-width: 960px;
-}
-}
+
+
+
+
+
+
+
 
 
 
