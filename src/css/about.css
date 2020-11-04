@@ -11,7 +11,8 @@
   display: flex;
   flex-wrap: wrap;
 	min-height: 360px;	
-  margin-bottom: 5em;   
+  margin-bottom: 5em;
+  margin-top: 28px;   
   }
   
 .aboutMe {	
@@ -31,15 +32,13 @@
 	font-size: 1em;
 	line-height: 26px;
   color:  #777777;  
-  width: 90%;
-    
+  width: 90%;    
 }
   
 	/* Skills section */
 	
 .skill-wrapper {
-  flex: 1;
-  
+  flex: 1;  
 }	
 
 .skills {
@@ -48,9 +47,7 @@
   }
   
 .skills-container {
-  height: inherit;
-  
-  
+  height: inherit;  
   }
   
 .skills-title {
@@ -62,8 +59,7 @@
 	font-size: 20px;
 	margin-bottom: 15px;
 	margin-top: 30px;
-	color:  #777777;
-   
+	color:  #777777;   
   }
   
 .skills li {
@@ -76,8 +72,7 @@
 	display: block;
 	height: 12px; 
 	border-radius: 10px;
-	overflow: hidden;    
-  
+	overflow: hidden;   
   }
   
 .bar span {
@@ -88,22 +83,22 @@
   
   .html {
     width: 90%;
-    animation: html 4s;
+    animation: html 6s;
   }
   
   .ccs3 {
     width: 65%;
-    animation: css3 5s;
+    animation: css3 7s;
   }
   
   .javascript {
     width: 75%;
-    animation: javascript 6s;
+    animation: javascript 9s;
   }
   
   .xd {
     width: 60%;
-    animation: xd 6s;
+    animation: xd 10s;
   }
   
   

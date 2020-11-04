@@ -24,7 +24,7 @@
 	width: 100%;
 	display: flex;	
 	justify-content: space-around;
-	margin-bottom: 7.5em;
+	margin-bottom: 5.8em;
 }
 
 .buttom1 {
@@ -62,10 +62,6 @@
 
 }
 
-.jobsList {
-	min-height: 628px; 	
-	width: 100%;	
-}
 
 .jobsList-1 {
 	max-width: 460px;
@@ -102,6 +98,8 @@
 	left: 46%;
 	top: 16px;
 	transform: translateX(-50%);
+	margin-bottom: 50%;
+	
 }
 
 .spanList::before {
@@ -115,8 +113,6 @@
 	top: 4px;
 	transform: translateX(-50%);
 }
-
-
 
 .jobItem {
 	display: flex; 

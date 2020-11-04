@@ -35,7 +35,7 @@
 	
 .header-section {
 	background-color: black;
-	height: 70px;
+	height: 75px;
 }
 
 .main-navigation {
@@ -202,8 +202,7 @@
 }
 
 .aboutMe-description {
-  width: 100%;
-  
+  width: 100%;  
 }
 
 .skill-wrapper {
@@ -216,14 +215,18 @@
 }
 
 /* --- experience area --- */ 
-.experienceContainer {
-  padding-left: 10%;
-}
+
 
 .buttom1 {
   position: relative;
   right: 10%;
 }
+/* --- bio area ---- */
+.bio-text {
+  border: 1px dashed black;
+  padding: 15px;
+}
+
 
 /* ... footer area ... */
 
@@ -231,6 +234,10 @@
   margin-top: 40%;
   flex-direction: column;
   
+}
+
+.jobsList {
+  padding-left: 56.5px;
 }
   
   }
@@ -244,6 +251,18 @@
   position: relative;
   right: 40px;
 }
+
+.jobsList {
+	min-height: 628px; 	
+	width: 100%;
+	border: 2px dashed greenyellow;	
+}
+
+
+
+
+
+
 }
 
 
@@ -261,9 +280,7 @@
 .main-logo {
 	margin-left: 80px;
 	margin-right: 80px;
-
 }
-
 
 .header {
 	background-color: black;
@@ -293,7 +310,6 @@
 	height: 100;
 }
 
-
 .hero-text {
 	margin-top: 30px;
 }	
@@ -301,8 +317,7 @@
 .hero-text h1 {
 	font-size: 45px;
 	text-align: center;
-	margin-bottom: 20px;
-	
+	margin-bottom: 20px;	
 }
 
 .hero-text h6 {
@@ -347,7 +362,6 @@
 /* ----- Experience Section ----- */
 
 .experienceContainer {
-	border: 1px solid black;
 	width: 100%;
 	height: 682px;
 	margin-top: 26px;
@@ -358,7 +372,7 @@
 
 .buttom1 { 
   position: relative;
-  right: 10%;
+  left: 2%;
 }
 
 .containerButtoms {
@@ -368,10 +382,20 @@
 	margin-bottom: 0;
 }
 
+.jobItem { 
+  width: 100%;
+}
 
 
 .jobsList {
-	padding: 20px;
+  width: 100%;
+  border: 2px dashed red;
+  padding-right: 25px;
+  
+}
+
+.jobItem-content-video {
+  padding-right: 40px;
 }
 
 
