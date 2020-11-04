@@ -17,7 +17,7 @@
 	margin-left: auto;
 	margin-right: auto;  
 	color: rgba(255, 255, 255, 0.75);
-	border: 1px solid black;
+	
 }
 
 .containerButtoms {
@@ -42,6 +42,8 @@
 	border: 1px solid #9ab5f5;
 	background: rgba(255, 255, 255, 0.1);
 	
+ 
+	
 }
 
 .buttom1:active {
@@ -62,10 +64,7 @@
 
 .jobsList {
 	min-height: 628px; 	
-	width: 100%;
-	border: 1px dashed black;
-	padding-left: 25px;
-	
+	width: 100%;	
 }
 
 .jobsList-1 {
@@ -101,7 +100,7 @@
 	background: rgba(255, 255, 255, 0.2);
 	position: absolute;
 	left: 46%;
-	top: 30px;
+	top: 16px;
 	transform: translateX(-50%);
 }
 
@@ -122,12 +121,19 @@
 .jobItem {
 	display: flex; 
 	align-items: center;
+	width: 85%;
 }
 
 .jobItem-title {
-  padding-right: 100px;
+	padding-right: 100px;
+	
+}
+
+.jobItem-content h4 {
+	text-transform: uppercase;
 }
 
 .jobItem-content-video {
 	padding-left: 15px;
 }
+

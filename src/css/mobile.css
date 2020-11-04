@@ -2,7 +2,7 @@
 /* --- laptop HiDPI 1440px --- */
 @media screen and (max-width: 1440px){
   .container {
-    max-width: 1280px;
+    max-width: 1150px;
   }
 }
 
@@ -220,6 +220,10 @@
   padding-left: 10%;
 }
 
+.buttom1 {
+  position: relative;
+  right: 10%;
+}
 
 /* ... footer area ... */
 
@@ -232,9 +236,14 @@
   }
   
 @media screen and (min-width: 480px){
-  .cuadro2{
-    transform: scale(1.1);	
-  }
+.cuadro2{
+  transform: scale(1.1);	
+}
+
+.buttom1 {
+  position: relative;
+  right: 40px;
+}
 }
 
 
@@ -345,6 +354,11 @@
 	margin-left: auto;
 	margin-right: auto;  
 	color: rgba(255, 255, 255, 0.75);
+}
+
+.buttom1 { 
+  position: relative;
+  right: 10%;
 }
 
 .containerButtoms {
