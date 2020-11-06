@@ -41,7 +41,54 @@
 .main-navigation {
 	display: none;
 }
-	
+
+.main-actigation-active {
+  display: block;
+}
+#icon-menu {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 0;
+  padding: 1rem;
+  color: black;
+  font-size: 26px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  background: white;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  position: fixed;
+  bottom: 3.5rem;
+  right: 0.6rem;  
+}
+
+.menu-active {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 4;
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); 
+  transition: .3s;
+
+}
+
+.main-ol {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
 .main-logo {
 	display: inherit;
 	margin: 0 auto;
@@ -222,8 +269,7 @@
   right: 10%;
 }
 /* --- bio area ---- */
-.bio-text {
-  border: 1px dashed black;
+.bio-text {  
   padding: 15px;
 }
 
@@ -254,9 +300,13 @@
 
 .jobsList {
 	min-height: 628px; 	
-	width: 100%;
-	border: 2px dashed greenyellow;	
+	width: 100%;	
 }
+
+.jobItem-content-video {
+	padding-left: 15px;
+}
+
 
 
 
@@ -282,9 +332,7 @@
 	margin-right: 80px;
 }
 
-.header {
-	background-color: black;
-}
+
 
 .hero {
 	bottom: -60px;
@@ -388,22 +436,17 @@
 
 
 .jobsList {
-  width: 100%;
-  border: 2px dashed red;
-  padding-right: 25px;
+  width: 100%;  
+  padding-right: 50px;
   
 }
 
-.jobItem-content-video {
-  padding-right: 40px;
-}
+
 
 
 /* ----- SEO Section ------ */
 
-.bio-text {
-	
-}
+
 
 .cuadros {
 	flex-wrap: wrap;

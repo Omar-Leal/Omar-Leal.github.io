@@ -40,16 +40,12 @@
 	font-weight: 500;
 	color: #fff;	
 	border: 1px solid #9ab5f5;
-	background: rgba(255, 255, 255, 0.1);
-	
- 
-	
+	background: rgba(255, 255, 255, 0.1);	
 }
 
 .buttom1:active {
 	background: #fff;
 	color: #222222;
-
 }
 
 .buttom2 {
@@ -59,7 +55,6 @@
 	height: 52px;
 	border: none; 
 	margin-left: 20px;
-
 }
 
 
@@ -98,8 +93,7 @@
 	left: 46%;
 	top: 16px;
 	transform: translateX(-50%);
-	margin-bottom: 50%;
-	
+	margin-bottom: 50%;	
 }
 
 .spanList::before {
@@ -117,19 +111,18 @@
 .jobItem {
 	display: flex; 
 	align-items: center;
-	width: 85%;
+	width: 100%;	
 }
 
 .jobItem-title {
-	padding-right: 100px;
-	
+	padding-right: 100px;	
 }
 
 .jobItem-content h4 {
 	text-transform: uppercase;
+	
 }
 
-.jobItem-content-video {
-	padding-left: 15px;
+.jobItem-content-video h4 {
+	text-transform: uppercase;
 }
-

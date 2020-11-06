@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f209e16b3a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="stylesheet" href="src/css/about.css">
     <link rel="stylesheet" href="src/css/mobile.css">    
@@ -13,13 +14,13 @@
     <title>Omar Leal</title>
 </head>
 <body>
-   <section class="header-section">
+   <section class="header-section" id="responsive-menu">
      <div class="container">
          <header class="header">
             <figure class="main-logo">
                 <img src="src/asset/OmarDev.png" alt="Omar Leal" > 
             </figure>
-            <nav class="main-navigation">
+            <nav class="main-navigation" id="links">
             <ol class="main-ol">
                 <li><a href="https://www.linkedin.com/in/omarlealr/" target="_blank">Linkedin</a></li>
                 <li><a href="https://github.com/Omar-Leal" target="_blank">GitHub</a></li>
@@ -27,8 +28,11 @@
                 <li><a href="#aboutSkills">About me</a></li>
                 <li><a href="#aboutSkills">Skills</a></li>
                 <li><a href="#SEO">SEO</a></li>
-            </ol>
+            </ol>             	
             </nav>
+            <div id="icon-menu"  onclick="trigger_active()">
+              <i class="fas fa-fingerprint"></i>
+            </div>
          </header>
      </div>  
    </section>
@@ -50,8 +54,7 @@
                         <li><a href=""> <strong>Birth date: </strong> 25 March, 1988</a></li>
                         <li><a href=""><strong>Phone: </strong>(+58) 041206625</a></li>
                         <li><a href=""><strong>Email: </strong> omarenriquelealr@gmail.com</a></li>
-                    </ul>    
-					
+                    </ul>  					
 			    </div>  
 				</div>
 			</section>
@@ -187,7 +190,7 @@
 			</section>
     </div>
   </section>
-
+  <script src="src/js/main.js"></script>
   <footer class="main-footer">
 		<div class="footer1">
 			<p>Designed and developed by <strong> Omar Leal</strong></p>
