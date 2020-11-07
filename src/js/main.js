@@ -1,11 +1,23 @@
-var triggerButtom = document.getElementById("icon-menu").addEventListener("click", trigger_active);
+const burgerButtom = document.getElementById('icon-menu').addEventListener('click', triggerMenu);
+const mobileMenu = document.getElementById('links');
 
-function trigger_active(){    
-  const headerSection  = this.document.getElementById("responsive-menu");
-  const navItem = document.getElementById("links");
-  if(triggerButtom){
-    this.headerSection.classList.toggle("menu-active");
+function triggerMenu(){
+   mobileMenu.classList.toggle("menu-active");
+
+
+  /* if(!mobileMenu.classList.contains('menu-active')){
+    mobileMenu.classList.add("menu-active");
+  }else{
+    mobileMenu.classList.remove("menu-active");
+  } */
+
+  const linkMenu = document.getElementById('item');
+  linkMenu.addEventListener('click', hideMenu);
+
+  function hideMenu(){
+    mobileMenu.classList.remove("menu-active");
   }
+
+  
   
 }
-
