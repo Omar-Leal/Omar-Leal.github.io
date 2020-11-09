@@ -1,29 +1,29 @@
 
 /* --- laptop HiDPI 1440px --- */
 @media screen and (max-width: 1440px){
-  .container {
-    max-width: 1150px;
-  }
+.container {
+  max-width: 1150px;
+}
 }
 
 @media screen and (max-width: 1280px){
-  .container {
-    max-width: 1150px;
-  }
+.container {
+  max-width: 1150px;
+}
 }
 
 
 @media screen and (max-width: 1150px){
-  .container {
-    max-width: 1024px;
-  }
+.container {
+  max-width: 1024px;
+}
   
   }
 
 @media screen and (max-width: 1024px){
-	.container{
-    max-width: 960px;
-  }
+.container{
+  max-width: 960px;
+}
 
   } 
 
@@ -50,50 +50,54 @@
   width: 60px;
   height: 60px;
   border: 0;
-  padding: 1rem;
-  color: black;
+  padding: 1rem;  
   font-size: 26px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;  
   background: white;
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
   position: fixed;
   bottom: 3.5rem;
   right: 0.6rem;  
   z-index: 5;
+  animation-duration: 3s;
+  animation-name: fade;
 }
 
-.menu-active {
+.menu-active {  
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 26%;
-  text-align: center;
-  font-size:calc(22px + 2vw);
+  text-align: center;  
   font-weight: 800;
+  font-size: calc(22px + 2vw);
   text-transform: uppercase;  
   position: fixed;
   top: 0;
-  bottom: 0;
+  bottom: 0;  
   z-index: 4;
   height: auto;
-  width: 100vw;
-  background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);  
-  transition: 4s;
+  width: 100vw;  
+  background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    
+  }
 
+.movement {  
+  clip-path: circle(86.8% at 86% 52%);
+}
+
+.fa-fingerprint{
+  color: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);  
+  
 }
 
 .main-ol {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
 }
-
-
-
-
-
 
 .main-logo {
 	display: inherit;
@@ -116,8 +120,7 @@
 	width: 100%;
 	text-align: center;
 	margin-bottom: 10px;	
-	position: static;
-	
+	position: static;	
 }	
 /* ---- about area ---- */	
 .about-content {  
@@ -149,8 +152,7 @@
 .cuadros {		
 	width: 100%;
 	flex-direction: column-reverse;		
-	margin: 0%;
-	
+	margin: 0%;	
 }
 	
 	
@@ -330,13 +332,10 @@
   max-width: 375px;
 }  
 
-
 .main-logo {
 	margin-left: 80px;
 	margin-right: 80px;
 }
-
-
 
 .hero {
 	bottom: -60px;
@@ -344,12 +343,10 @@
 	padding: 40px 40px 0 40px;
 }
 
-
 .flex-hero {  	
 	flex-direction: column;	
 	padding: 0;	
-	position: relative;		
-	
+	position: relative;	
 }
 
 .hero-text 	{
@@ -387,8 +384,7 @@
 }
 
 .contactInfo li {
-	text-align: center;
-	
+	text-align: center;	
 }
 
 
@@ -441,16 +437,10 @@
 
 .jobsList {
   width: 100%;  
-  padding-right: 50px;
-  
+  padding-right: 50px; 
 }
 
-
-
-
 /* ----- SEO Section ------ */
-
-
 
 .cuadros {
 	flex-wrap: wrap;
@@ -464,10 +454,10 @@
 	width: 100%;
 }
 
-   } /* Limit 375px */
+   } 
 
 
-/* .... iPad Pro 1024 ...*/
+
 
 
 

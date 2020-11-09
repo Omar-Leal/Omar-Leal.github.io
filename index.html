@@ -25,7 +25,7 @@
                 <li><a href="https://www.linkedin.com/in/omarlealr/" target="_blank">Linkedin</a></li>
                 <li><a href="https://github.com/Omar-Leal" target="_blank">GitHub</a></li>
                 <li><a href="#career">Career</a></li>
-                <li><a href="#aboutSkills">About me</a></li>
+                <li><a href="#about">About me</a></li>
                 <li><a href="#aboutSkills">Skills</a></li>
                 <li><a href="#SEO">SEO</a></li>
             </ol>             	
@@ -65,7 +65,7 @@
 
     <section class="about-section">
       <div class="container">
-        <section class="about-content">
+        <section class="about-content scrolling">
           <div class="aboutMe">
             <div class="aboutMe-wrapper">
               <h2 class="aboutMe-title">ABOUT MYSELF</h2>
@@ -93,11 +93,11 @@
   <section class="experience-section">
     <div class="container">
       <section class="wrapper2" id="career">
-        <section class="experienceContainer" >
+        <section class="experienceContainer scrolling" >
           <div class="containerButtoms">
-            <div class="experienceButtoms">
-              <button class="buttom1">Experience</button>
-              <button class="buttom2">Educations</button>		
+            <div class="experienceButtoms" id="buttoms-id">
+              <button class="buttom1 active">Experience</button>
+              <button class="buttom1">Educations</button>		
             </div>
           </div>	
     
@@ -155,42 +155,31 @@
 
   <section class="offering">
     <div class="container">
-      <section class="bio">
+      <section class="bio scrolling">
          <div class="bio-head">
             <h2 class="bio-h2" id="SEO">AS A SEO SPECIALIST</h2>			  
               <P class="bio-text">
                 Dolore anim non non sint enim incididunt mollit incididunt proident quis eu nostrud sit velit commodo adipisicing esse cupidatat dolor in duis veniam enim magna ut consequat id.
               </P>
          </div>
-
-        
-	
-        <section class="cuadros">
-          <div class="cuadro1">
-            <h2 class="cuadrosH2">AS A SEO SPECIALIST</h2>
-              <p class="cuadrosParrafos">In in est ex nostrud eiusmod nostrud aliqua nisi mollit pariatur ut commodo ea officia voluptate ut adipisicing nostrud cillum minim nostrud velit tempor reprehenderit officia ex velit incididunt cupidatat veniam anim proident.								
-              </p>
-          </div>
-
-          <div class="cuadro2">
-            <h2 class="cuadrosH2">ABOUT ME</h2>
-              <p class="cuadrosParrafos">In in est ex nostrud eiusmod nostrud aliqua nisi mollit pariatur ut commodo ea officia voluptate ut adipisicing nostrud cillum minim nostrud velit tempor reprehenderit officia ex velit incididunt cupidatat veniam anim proident.								
-              </p>
-            
-          </div>
-
-          <div class="cuadro3">
-            <h2 class="cuadrosH2">AS A FRONTEND DEV</h2>
-              <p class="cuadrosParrafos">In in est ex nostrud eiusmod nostrud aliqua nisi mollit pariatur ut commodo ea officia voluptate ut adipisicing nostrud cillum minim nostrud velit tempor reprehenderit officia ex velit incididunt cupidatat veniam anim proident.								
-              </p>
-            
-          </div>
-          
-        </section>
+	        <section class="cuadros">
+              <div class="cuadro1">
+                <h2 class="cuadrosH2">AS A SEO SPECIALIST</h2>
+                  <p class="cuadrosParrafos">In in est ex nostrud eiusmod nostrud aliqua nisi mollit pariatur ut commodo ea officia voluptate ut adipisicing nostrud cillum minim nostrud velit tempor reprehenderit officia ex velit incididunt cupidatat veniam anim proident.		</p>
+              </div>
+              <div class="cuadro2">
+                <h2 class="cuadrosH2">ABOUT ME</h2>
+                  <p class="cuadrosParrafos">In in est ex nostrud eiusmod nostrud aliqua nisi mollit pariatur ut commodo ea officia voluptate ut adipisicing nostrud cillum minim nostrud velit tempor reprehenderit officia ex velit incididunt cupidatat veniam anim proident.		</p>                
+              </div>
+              <div class="cuadro3">
+                <h2 class="cuadrosH2">AS A FRONTEND DEV</h2>
+                  <p class="cuadrosParrafos">In in est ex nostrud eiusmod nostrud aliqua nisi mollit pariatur ut commodo ea officia voluptate ut adipisicing nostrud cillum minim nostrud velit tempor reprehenderit officia ex velit incididunt cupidatat veniam anim proident.	 </p>              
+              </div>
+          </section>
 			</section>
     </div>
   </section>
-  <script src="src/js/main.js"></script>
+  
   <footer class="main-footer">
 		<div class="footer1">
 			<p>Designed and developed by <strong> Omar Leal</strong></p>
@@ -198,8 +187,10 @@
 		<div class="footer2">
       <p>Written in HTML, CSS3 and Javascript</p>
     </div>
-	</footer>	
-  
-    
+  </footer>	
+  <script src="src/js/smoothScroll.js"></script>
+  <script src="src/js/scrolling.js"></script>
+  <script src="src/js/main.js"></script>
+  <script src="src/js/app.js"></script>    
 </body>
 </html>

@@ -2,12 +2,13 @@
 	min-height: 57.625em;
 	display: flex;
 	background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+	border-radius: 16px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.18);
 }
 
 .wrapper2 {	
 	width: 100%;
-	height: auto;
-	
+	height: auto;	
 }
 
 .experienceContainer {	
@@ -32,6 +33,7 @@
 	width: 10.8125em; 
 	min-inline-size: 52px;
 	border: none;
+	outline: none;
 	margin: 0px;
 	line-height: 50px;
 	border-radius: 5px;
@@ -39,24 +41,14 @@
 	font-size: 13px;
 	font-weight: 500;
 	color: #fff;	
-	border: 1px solid #9ab5f5;
+	
 	background: rgba(255, 255, 255, 0.1);	
 }
 
-.buttom1:active {
-	background: #fff;
-	color: #222222;
+.active, .buttom1:hover {
+  background-color: rgb(233, 233, 233);
+  color: #777777;
 }
-
-.buttom2 {
-	flex: 2;
-	font-size: 13px;
-	width: 10.8125em; 
-	height: 52px;
-	border: none; 
-	margin-left: 20px;
-}
-
 
 .jobsList-1 {
 	max-width: 460px;
