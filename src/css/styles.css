@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
 
+html { scroll-behavior: smooth; }
 * {
 	margin: 0;
 	padding: 0;
   box-sizing: border-box;
   /*font-family: 'GlacialIndifferenceRegular';*/
   font-family: roboto;
-  line-height: 1.625em;
+  line-height: 1.625em;  
 }
 
 .container {	  
@@ -30,11 +31,11 @@
 
 @keyframes showTop {
   0% {
-    transform: translateY(70px);
+    transform: translateX(70px);
   }
 
   100% {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
@@ -51,6 +52,14 @@
   top: 0;
   left: 0;
   z-index: 99;  
+}
+
+.stickyHeader {
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.6); 
+  backdrop-filter: blur(56px); 
+  border: none; 
+  height: 90px;  
 }
 
 .header {
@@ -92,6 +101,8 @@
 
 .main-logo img {
   height: 70px;
+  animation-duration: 3s;
+  animation-name: fade;  
 }
 
 #icon-menu { display: none; }
@@ -112,15 +123,46 @@
   position: relative;
   bottom: -200px;  
   width: 100%;
-  box-shadow: 0 4px 16px rgba(32,33,36,.16); 
+  box-shadow: 0 4px 16px rgba(32,33,36,.16);     
 }
+
+.carrusel {
+  animation-duration: 2s;
+  animation-name: carrusel; 
+}
+
+@keyframes carrusel {
+  0% {
+    transform: translateX(70px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.carrusel-left {
+  animation-duration: 2s;
+  animation-name: carrusel-left; 
+}
+
+@keyframes carrusel-left {
+  0% {
+    transform: translateX(-70px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 
 .flex-hero {  
   display: flex;  
   width: 100%;  
   padding: 30px;
   animation-duration: 3s;
-  animation-name: fade;    
+  animation-name: fade;      
 }
 
 @keyframes fade {
@@ -151,8 +193,7 @@
   align-self: center;
   position: relative;
   left: 55px;
-  color:  #777777;
-  
+  color:  #777777;  
 }
 
 .hero-text h1 {
@@ -199,11 +240,13 @@
 .main-footer {
   display: flex;
   min-height: 4em;
-  background-color: black;
+  background-color: rgb(240, 240, 240);
   width: 100%;  
-  color: rgb(219, 219, 219);   
+  color:#b8b8b8;   
   border-radius: 12px 12px 0 0;
   font-size: 14px;
+  animation-duration: 3s;
+  animation-name: fade;
 }
 
 .footer1 {

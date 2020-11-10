@@ -17,8 +17,7 @@
 	margin-top: 4em;
 	margin-left: auto;
 	margin-right: auto;  
-	color: rgba(255, 255, 255, 0.75);
-	
+	color: rgba(255, 255, 255, 0.75);	
 }
 
 .containerButtoms {
@@ -28,24 +27,27 @@
 	margin-bottom: 5.8em;
 }
 
-.buttom1 {
-	flex: 1;
+.experienceButtoms {
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttom1 {	
 	width: 10.8125em; 
 	min-inline-size: 52px;
 	border: none;
-	outline: none;
-	margin: 0px;
+	outline: none;	
+	margin-right: 28px;
 	line-height: 50px;
 	border-radius: 5px;
 	padding: 0px 40px;
 	font-size: 13px;
 	font-weight: 500;
-	color: #fff;	
-	
+	color: #fff;		
 	background: rgba(255, 255, 255, 0.1);	
 }
 
-.active, .buttom1:hover {
+.active, .buttom1:hover  {
   background-color: rgb(233, 233, 233);
   color: #777777;
 }
@@ -83,7 +85,7 @@
 	background: rgba(255, 255, 255, 0.2);
 	position: absolute;
 	left: 46%;
-	top: 16px;
+	top: 30px;
 	transform: translateX(-50%);
 	margin-bottom: 50%;	
 }
@@ -107,11 +109,16 @@
 }
 
 .jobItem-title {
-	padding-right: 100px;	
+	padding-right: 116px;	
 }
 
 .jobItem-content h4 {
 	text-transform: uppercase;
+	
+	margin-bottom: 20px;	
+}
+
+.jobItem-content p {
 	
 }
 

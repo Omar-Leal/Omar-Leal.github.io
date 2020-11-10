@@ -83,22 +83,22 @@
   
   .html {
     width: 90%;
-    animation: html 6s;
+    animation: html 9s;
   }
   
   .ccs3 {
     width: 65%;
-    animation: css3 7s;
+    animation: css3 10s;
   }
   
   .javascript {
     width: 75%;
-    animation: javascript 9s;
+    animation: javascript 12s;
   }
   
   .xd {
     width: 60%;
-    animation: xd 10s;
+    animation: xd 14s;
   }
   
   
