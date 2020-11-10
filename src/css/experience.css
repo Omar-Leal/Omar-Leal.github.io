@@ -59,6 +59,7 @@
 	padding-top: 40px;
 	padding-bottom: 60px;
 	list-style: none;
+	
 }
 
 .jobsList-1::before {
@@ -67,7 +68,7 @@
 	width: 0.3125em;
 	background: rgba(255, 255, 255, 0.2);
 	position: absolute;
-	left: 46%;
+	left: 8%;
 	transform: translateX(-50%);
 	top: -5px;
 }
@@ -84,7 +85,7 @@
 	display: block;
 	background: rgba(255, 255, 255, 0.2);
 	position: absolute;
-	left: 46%;
+	left: 8%;
 	top: 30px;
 	transform: translateX(-50%);
 	margin-bottom: 50%;	
@@ -104,24 +105,23 @@
 
 .jobItem {
 	display: flex; 
-	align-items: center;
-	width: 100%;	
+	flex-direction: column;
+	width: 100%;		
+	text-align: center;
 }
 
 .jobItem-title {
-	padding-right: 116px;	
+		
 }
 
 .jobItem-content h4 {
 	text-transform: uppercase;
-	
-	margin-bottom: 20px;	
+	font-size: 1.5em;	
+	margin-bottom: 3px;	
 }
 
 .jobItem-content p {
 	
 }
 
-.jobItem-content-video h4 {
-	text-transform: uppercase;
-}
+
