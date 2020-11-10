@@ -439,13 +439,23 @@
 
 .jobItem { 
   width: 100%;
+ 
+  
 }
-
 
 .jobsList {
   width: 100%;  
-  padding-right: 50px; 
+  padding-left: 0;
 }
+
+.jobsList-1 {  
+  width: 100%;
+}
+
+.jobsList-1::before {
+  
+}
+  
 
 /* ----- SEO Section ------ */
 
