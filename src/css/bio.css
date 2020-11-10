@@ -60,27 +60,6 @@
 	color: rgb(235, 235, 235);
 	border-radius: 12px;			
 }
-
-.cuadro1:hover {
-	transition: .1s ease-in-out;
-	transform: scale(1.2);
-	z-index: 5;
-	background-color: #7bb0e7;
-	background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-	color: rgb(235, 235, 235);
-}
-.cuadro2:hover {
-	transition: .1s ease-in-out;
-	transform: scale(1.2);
-}
-.cuadro3:hover {
-	transition: .1s ease-in-out;
-	transform: scale(1.2);
-	z-index: 5;
-	background-color: #7bb0e7;
-	background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-	color: rgb(235, 235, 235);
-}
   
 .cuadro3{	  
 	min-height: 436px;
