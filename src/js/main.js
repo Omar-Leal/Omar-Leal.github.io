@@ -84,8 +84,8 @@ const buttom2 = () => {
                  </div>
                  <div class="jobItem-content">
                    <h4>Universidad Rafael Belloso Chacín</h4>
-                   <p>SEO Specialist</p>
-                   <p>SEO Manager</p>
+                   <p>Marketing Specialist Degree</p>
+                   
                  </div>
                </div>
            </li>
