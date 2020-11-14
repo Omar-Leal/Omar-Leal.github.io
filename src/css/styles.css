@@ -127,7 +127,7 @@ html { scroll-behavior: smooth; }
 }
 
 .carrusel {
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-name: carrusel; 
 }
 
@@ -142,7 +142,7 @@ html { scroll-behavior: smooth; }
 }
 
 .carrusel-left {
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-name: carrusel-left; 
 }
 
