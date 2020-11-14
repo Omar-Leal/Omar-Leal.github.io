@@ -7,7 +7,8 @@ burgerButtom.addEventListener('click', function triggerMenu(){
   if(count == 0){
     mobileMenu.classList.add("menu-active");
     mobileMenu.classList.add("movement");    
-    burgerButtom.classList.add("fingerPrint-active");    
+    burgerButtom.classList.add("fingerPrint-active");
+    navigator.vibrate([100]);    
     count = 1;
   }else {
     mobileMenu.classList.remove("menu-active");
