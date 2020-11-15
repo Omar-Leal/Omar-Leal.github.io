@@ -7,7 +7,7 @@ burgerButtom.addEventListener('click', function triggerMenu(){
   if(count == 0){
     mobileMenu.classList.add("menu-active");
     mobileMenu.classList.add("movement");    
-    burgerButtom.classList.add("fingerPrint-active");
+    burgerButtom.classList.add("fingerPrint-active");       
     navigator.vibrate([100]);    
     count = 1;
   }else {
@@ -108,12 +108,12 @@ let btns = header.getElementsByClassName("buttom1");
 let btn1Content = document.getElementById("jobsExpe-id");
   text1();
   for (let i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-      let current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-          this.className += " active";
-
-          
+    btns[i].addEventListener("click", function() {       
+         let current = document.getElementsByClassName("active");
+             current[0].className = current[0].className.replace(" active", "");
+                  this.className += " active";
+                  navigator.vibrate([100]);    
+            
     });
     
     
