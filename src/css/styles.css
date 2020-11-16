@@ -217,6 +217,23 @@ h1, h2, h3, h4 {
   }
 }
 
+.far {
+  font-size: 24px;
+  color:#909090;
+}
+
+.fas {
+  font-size: 24px;
+  color:#909090;
+}
+
+.a-icons {
+  position: relative;
+  left: 10px;
+  bottom: 4px;
+  color:#909090;
+}
+
 .hero-image {
   width: 100%;
   height: auto;  
@@ -236,7 +253,7 @@ h1, h2, h3, h4 {
   align-self: center;
   position: relative;
   left: 55px;
-  color:  #777777;  
+  color:#777777;  
 }
 
 .hero-text h1 {
