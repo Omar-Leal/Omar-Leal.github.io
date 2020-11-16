@@ -83,7 +83,7 @@ const buttom2 = () => {
                    <p>May 2007 to december 2011</p>
                  </div>
                  <div class="jobItem-content">
-                   <h4>Universidad Rafael Belloso Chacín</h4>
+                   <h4>Rafael Belloso Chacín University</h4>
                    <p>Marketing Specialist Degree</p>
                    
                  </div>
@@ -94,14 +94,18 @@ const buttom2 = () => {
 }
 
 let sectCont = document.getElementById("jobsExpe-id");
+const spanClass = document.getElementsByClassName("jobsList-1");
+  
 
-const text1 = () => {
-   return sectCont.innerHTML = buttom1();
-}
+const text1 = () =>  sectCont.innerHTML = buttom1();
+const text2Inner = () => sectCont.innerHTML = buttom2();
+  const text2 = () => {
+        text2Inner();
+        
+  }
 
-const text2 = () => {
-  return sectCont.innerHTML = buttom2();
-}
+
+
 
 let header = document.getElementById("buttoms-id");
 let btns = header.getElementsByClassName("buttom1");
