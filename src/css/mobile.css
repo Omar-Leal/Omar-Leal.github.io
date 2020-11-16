@@ -295,7 +295,7 @@
 
 .buttom1 {
   position: relative;
-  right: 10%;
+  
 }
 /* --- bio area ---- */
 .bio-text {  
@@ -320,6 +320,10 @@
 @media screen and (min-width: 480px){
 .cuadro2{
   transform: scale(1.1);	
+}
+.containerButtoms {
+  
+	
 }
 
 .buttom1 {
@@ -448,7 +452,9 @@
 	width: 100%;
 	display: flex;	
 	justify-content: space-around;
-	margin-bottom: 0;
+  margin-bottom: 0;
+  
+
 }
 
 .jobItem { 
