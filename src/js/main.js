@@ -76,8 +76,32 @@ const buttom1 = () => {
 // Education template
 const buttom2 = () => {
   const educationY = `
-             <li>
-             
+                    <li>             
+                    <div class="jobItem">
+                      <div class="jobItem-title">
+                        <p>October 2020</p>
+                      </div>
+                      <div class="jobItem-content">
+                        <h4>PLATZI</h4>
+                        <p><a href="https://platzi.com/@omarleal25/curso/1350-html5-css3/diploma/detalle/" target="_blank">The Web Development Course</a></p>
+                        
+                      </div>
+                    </div>
+                  </li>
+                  <li>    
+                  <li>             
+                  <div class="jobItem">
+                    <div class="jobItem-title">
+                      <p>January 2020</p>
+                    </div>
+                    <div class="jobItem-content">
+                      <h4>UDEMY</h4>
+                      <p><a href="https://www.udemy.com/certificate/UC-7UUJNCYO/" target="_blank">PHP 7 & MySQL: The Complete Course and practical from the beginning</a></p>
+                      
+                    </div>
+                  </div>
+                </li>
+              <li>             
                <div class="jobItem">
                  <div class="jobItem-title">
                    <p>May 2007 to december 2011</p>
