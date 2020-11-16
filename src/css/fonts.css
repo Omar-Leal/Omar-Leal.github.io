@@ -4,7 +4,7 @@
     font-family: 'Avenir LT Std 55 Roman';
     font-style: normal;
     font-weight: normal;
-    src: local('Avenir LT Std 55 Roman'), url('AvenirLTStd-Roman.woff') format('woff');
+    src: local('Avenir LT Std 55 Roman'), url(../fonts/AvenirLTStd-Roman.woff) format('woff');
     }
     
 
@@ -12,7 +12,7 @@
     font-family: 'Avenir LT Std 55 Oblique';
     font-style: normal;
     font-weight: normal;
-    src: local('Avenir LT Std 55 Oblique'), url('AvenirLTStd-Oblique.woff') format('woff');
+    src: local('Avenir LT Std 55 Oblique'), url(../fonts/AvenirLTStd-Oblique.woff) format('woff');
     }
     
 

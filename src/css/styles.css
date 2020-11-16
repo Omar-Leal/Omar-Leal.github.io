@@ -10,6 +10,21 @@
        url(../fonts/Gilroy-Light.woff) format("woff");         
   
 } */  
+@font-face {
+  font-family: 'Avenir LT Std 55 Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Avenir LT Std 55 Roman'), url(../fonts/AvenirLTStd-Roman.woff) format('woff');
+  }
+
+@font-face {
+  font-family: 'Avenir LT Std 85 Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Avenir LT Std 85 Heavy'), url(../fonts/AvenirLTStd-Heavy.woff) format('woff');
+  } 
+
+  
 
 html { scroll-behavior: smooth; }
 * {
@@ -20,7 +35,9 @@ html { scroll-behavior: smooth; }
   line-height: 1.625em;  
 }
 
-
+h1, h2, h3, h4 {
+  font-family: 'Avenir LT Std 85 Heavy';
+}
 
 .container {	  
 	height: inherit;
@@ -68,8 +85,7 @@ html { scroll-behavior: smooth; }
 
 .stickyHeader {
   position: sticky;
-  background-color: black;
-  
+  background-color: black;   
   border: none; 
   height: 100px;  
 }
@@ -84,6 +100,8 @@ html { scroll-behavior: smooth; }
 /* -- Main Area --- */
 .main-navigation {
   height: inherit;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-ol {
@@ -131,10 +149,7 @@ html { scroll-behavior: smooth; }
 
 .main-section {
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  width: 100%;
-  
-
-  
+  width: 100%;  
 }
 
 #particles-js {

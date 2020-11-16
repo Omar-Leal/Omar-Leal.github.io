@@ -4,10 +4,10 @@ const mobileMenu = document.getElementById('links');
 let count = 0;
 
 burgerButtom.addEventListener('click', function triggerMenu(){
-  if(count == 0){
-    mobileMenu.classList.add("menu-active");
+  if(count == 0){   
+    mobileMenu.classList.add("menu-active");    
     mobileMenu.classList.add("movement");    
-    burgerButtom.classList.add("fingerPrint-active");       
+    burgerButtom.classList.add("fingerPrint-active");          
     navigator.vibrate([100]);    
     count = 1;
   }else {
@@ -27,7 +27,7 @@ burgerButtom.addEventListener('click', function triggerMenu(){
 const buttom1 = () => {
   const experienceX = `  
             <li>
-               <span class="spanList"></span>
+               
                  <div class="jobItem">
                    <div class="jobItem-title">
                      <p>April 2017 to present</p>
@@ -40,7 +40,7 @@ const buttom1 = () => {
                  </div>
              </li>
              <li>
-               <span class="spanList"></span>
+               
                  <div class="jobItem">
                    <div class="jobItem-title">
                      <p>September 2019 to June 2020</p>
@@ -52,7 +52,7 @@ const buttom1 = () => {
                  </div>
              </li>
              <li>
-               <span class="spanList"></span>
+               
                  <div class="jobItem">
                    <div class="jobItem-title">
                      <p>June 2014 to April 2017</p>
@@ -77,7 +77,7 @@ const buttom1 = () => {
 const buttom2 = () => {
   const educationY = `
              <li>
-             <span class="spanList"></span>
+             
                <div class="jobItem">
                  <div class="jobItem-title">
                    <p>May 2007 to december 2011</p>
@@ -94,18 +94,8 @@ const buttom2 = () => {
 }
 
 let sectCont = document.getElementById("jobsExpe-id");
-const spanClass = document.getElementsByClassName("jobsList-1");
-  
-
-const text1 = () =>  sectCont.innerHTML = buttom1();
-const text2Inner = () => sectCont.innerHTML = buttom2();
-  const text2 = () => {
-        text2Inner();
-        
-  }
-
-
-
+  const text1 = () =>  sectCont.innerHTML = buttom1();
+  const text2 = () => sectCont.innerHTML = buttom2();
 
 let header = document.getElementById("buttoms-id");
 let btns = header.getElementsByClassName("buttom1");

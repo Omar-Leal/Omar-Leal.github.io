@@ -77,7 +77,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 26%;
+  padding-left: 16%;
+  
   text-align: center;  
   font-weight: 800;
   font-size: calc(22px + 2vw);
@@ -88,9 +89,22 @@
   z-index: 4;
   height: auto;
   width: 100vw;  
-  background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    
+  background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);    
   }
+  .burger-logo {  
+    align-items: center;
+    animation-duration: 3s;
+    animation-name: fade;    
+    
+    right: 50px;
+    bottom: 60px;
+  }
+  
+  .burger-logo img {
+    height: 20px;
+    animation-duration: 3s;
+    animation-name: fade; 
+  }  
 
 .movement {  
   clip-path: circle(86.8% at 86% 52%);
@@ -452,10 +466,7 @@
   width: 100%;
 }
 
-.jobsList-1::before {
-  
-}
-  
+
 
 /* ----- SEO Section ------ */
 
