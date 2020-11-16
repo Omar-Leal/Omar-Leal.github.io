@@ -1,26 +1,26 @@
- @font-face {
-  font-family: 'GlacialIndifferenceRegular';
-  src: url(../fonts/GlacialIndifference-Regular.woff) format("woff"),
-       url(../fonts/GlacialIndifference-Regular.woff2) format("woff2"),
-       url(../fonts/GlacialIndifference-Bold.woff) format("woff"),
-       url(../fonts/GlacialIndifference-Bold.woff2) format("woff2");     
+/*  @font-face {
+  font-family: 'Gilroy', sans-serif;
+  src: url(../fonts/Gilroy-Regular.woff) format("woff"),
+       url(../fonts/Gilroy-Semibold.woff) format("woff"),
+       url(../fonts/Gilroy-Thin.woff) format("woff"),
+       url(../fonts/Gilroy-UltraLight.woff) format("woff"),
+       url(../fonts/Gilroy-Medium.woff) format("woff"),
+       url(../fonts/Gilroy-Bold.woff) format("woff"),
+       url(../fonts/Gilroy-Extrabold.woff) format("woff"),
+       url(../fonts/Gilroy-Light.woff) format("woff");         
   
-} 
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+} */  
 
 html { scroll-behavior: smooth; }
 * {
 	margin: 0;
 	padding: 0;
   box-sizing: border-box;
-  font-family: 'GlacialIndifferenceRegular';
+  font-family: 'Avenir LT Std 55 Roman';
   line-height: 1.625em;  
 }
 
-body h1, h2 {
-  letter-spacing: 1px;
-}
+
 
 .container {	  
 	height: inherit;
@@ -102,7 +102,9 @@ body h1, h2 {
 .main-ol a {
   text-decoration: none;
   color: white;
+  font-size: 1.125em;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .main-logo {  
