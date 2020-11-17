@@ -18,9 +18,8 @@
   max-width: 1024px;
 }
 
-.experienceButtoms {
-  
-}
+
+
   
   }
 
@@ -29,12 +28,22 @@
   max-width: 960px;
 }
 
+
+
   } 
 
 @media screen and (max-width: 990px){
-  .container {
-    max-width: 850px;
-  }
+.container {
+  max-width: 850px;
+}
+.hero-text {
+  padding: 30px;
+}
+
+.hero-text p {
+  width: 100%;
+}
+
 }  
 
 

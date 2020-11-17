@@ -1,5 +1,5 @@
 .about-section {
- padding-top: 20%;
+ padding-top: 22%;
  
 }
 
@@ -24,8 +24,10 @@
 .aboutMe-title {
 	font-size: 36px;
 	margin-bottom: 25px;
-	color: rgb(93 93 93);
-    
+  color: rgb(93 93 93);
+  text-align: center; 
+  
+  width: 91%;   
 }
   
 .aboutMe-description {
@@ -52,7 +54,9 @@
   
 .skills-title {
 	font-size: 36px;
-	color: rgb(93 93 93);
+  color: rgb(93 93 93);
+  text-align: center;
+  width: 91%;
   }
   
 .skills h3 {
