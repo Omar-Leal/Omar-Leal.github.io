@@ -87,22 +87,27 @@
   
   .html {
     width: 90%;
-    animation: html 9s;
+    animation: html 7s;
+    animation-iteration-count: infinite;
+    
   }
   
   .ccs3 {
     width: 65%;
-    animation: css3 10s;
+    animation: css3 7s;
+    animation-iteration-count: infinite;
   }
   
   .javascript {
     width: 75%;
-    animation: javascript 12s;
+    animation: javascript 7s;
+    animation-iteration-count: infinite;
   }
   
   .xd {
     width: 60%;
-    animation: xd 14s;
+    animation: xd 7s;
+    animation-iteration-count: infinite;
   }
   
   

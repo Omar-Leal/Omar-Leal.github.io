@@ -238,12 +238,12 @@ h1, h2, h3, h4 {
 }
 
 .hero-text h1 {
-  font-size: 3.375em;
+  font-size: 4em;
   text-transform: uppercase;
 }
 
 .hero-text h2 {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   font-size: 24px;
 }
 
