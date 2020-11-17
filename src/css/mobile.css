@@ -17,6 +17,10 @@
 .container {
   max-width: 1024px;
 }
+
+.experienceButtoms {
+  
+}
   
   }
 
@@ -328,7 +332,7 @@
 
 .buttom1 {
   position: relative;
-  right: 40px;
+  
 }
 
 .jobsList {
@@ -444,8 +448,7 @@
 }
 
 .buttom1 { 
-  position: relative;
-  left: 2%;
+  
 }
 
 .containerButtoms {
