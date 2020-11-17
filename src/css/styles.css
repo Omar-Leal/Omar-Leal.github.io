@@ -51,20 +51,21 @@ h1, h2, h3, h4 {
 
 .scrolling {
   opacity: 0;
-  transition: all 0.9s;
+  transition: all 2s;
 }
 
 .showTop {
   animation: showTop;
+  animation-duration: 2s;
 }
 
 @keyframes showTop {
   0% {
-    transform: translateX(70px);
+    transform: translateY(70px);
   }
 
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 

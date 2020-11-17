@@ -35,7 +35,7 @@
 } 
  
 .cuadrosParrafos{
-  padding-top: 42px;
+  padding-top: 28px;
   font-size: 1em;
 }
   
@@ -70,3 +70,8 @@
 	color: #777777;
 	border-radius: 12px;
 }
+
+.fab {
+	font-size: 48px;
+}
+
