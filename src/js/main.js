@@ -84,6 +84,21 @@ const buttom2 = () => {
                       <div class="jobItem-content">
                         <h4>PLATZI</h4>
                         <p><a href="https://platzi.com/@omarleal25/curso/1350-html5-css3/diploma/detalle/" target="_blank">The Web Development Course</a></p>
+                        <p><a href="https://platzi.com/@omarleal25/curso/1758-html-practico/diploma/detalle/" target="_blank">HTML and CSS Practical Course</a></p>
+                        <p><a href="https://platzi.com/@omarleal25/curso/1050-programacion-basica/diploma/detalle/" target="_blank">Basic programming course</a></p>
+
+                        
+                      </div>
+                    </div>
+                  </li>
+                    <li>             
+                    <div class="jobItem">
+                      <div class="jobItem-title">
+                        <p>October 2020</p>
+                      </div>
+                      <div class="jobItem-content">
+                        <h4>PLATZI</h4>
+                        <p><a href="https://platzi.com/@omarleal25/curso/1350-html5-css3/diploma/detalle/" target="_blank">The Web Development Course</a></p>
                         
                       </div>
                     </div>
