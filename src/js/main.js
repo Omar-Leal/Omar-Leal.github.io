@@ -18,6 +18,7 @@ burgerButtom.addEventListener('click', function triggerMenu(){
   linkMenu.addEventListener('click', hideMenu);
     function hideMenu(){
       mobileMenu.classList.remove("menu-active");
+      navigator.vibrate([100]); 
     }   
 })
 
@@ -90,20 +91,8 @@ const buttom2 = () => {
                         
                       </div>
                     </div>
-                  </li>
-                    <li>             
-                    <div class="jobItem">
-                      <div class="jobItem-title">
-                        <p>October 2020</p>
-                      </div>
-                      <div class="jobItem-content">
-                        <h4>PLATZI</h4>
-                        <p><a href="https://platzi.com/@omarleal25/curso/1350-html5-css3/diploma/detalle/" target="_blank">The Web Development Course</a></p>
-                        
-                      </div>
-                    </div>
-                  </li>
-                  <li>    
+                  </li>                  
+                   
                   <li>             
                   <div class="jobItem">
                     <div class="jobItem-title">
