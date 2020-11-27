@@ -80,13 +80,17 @@ const buttom2 = () => {
                     <li>             
                     <div class="jobItem">
                       <div class="jobItem-title">
-                        <p>October 2020</p>
+                        <p>October 2020 to present</p>
                       </div>
                       <div class="jobItem-content">
                         <h4>PLATZI</h4>
                         <p><a href="https://platzi.com/@omarleal25/curso/1350-html5-css3/diploma/detalle/" target="_blank">The Web Development Course</a></p>
                         <p><a href="https://platzi.com/@omarleal25/curso/1758-html-practico/diploma/detalle/" target="_blank">HTML and CSS Practical Course</a></p>
                         <p><a href="https://platzi.com/@omarleal25/curso/1050-programacion-basica/diploma/detalle/" target="_blank">Basic programming course</a></p>
+                        <p><a href="https://platzi.com/@omarleal2503/curso/1814-basico-javascript/diploma/detalle/" target="_blank">Basic JavaScript Course</a></p>
+                        <p><a href="https://platzi.com/@omarleal2503/curso/1748-terminal/diploma/detalle/" target="_blank">Introduction to the Terminal and Command Line Course 2020</a></p>
+                        <p><a href="https://platzi.com/@omarleal2503/curso/1276-terminal-2019/diploma/detalle/" target="_blank">Introduction to the Terminal and Command Line Course 2019</a></p>
+
 
                         
                       </div>
