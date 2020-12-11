@@ -88,6 +88,8 @@ const buttom2 = () => {
                         <p><a href="https://platzi.com/@omarleal25/curso/1758-html-practico/diploma/detalle/" target="_blank">HTML and CSS Practical Course</a></p>
                         <p><a href="https://platzi.com/@omarleal25/curso/1050-programacion-basica/diploma/detalle/" target="_blank">Basic programming course</a></p>
                         <p><a href="https://platzi.com/@omarleal2503/curso/1814-basico-javascript/diploma/detalle/" target="_blank">Basic JavaScript Course</a></p>
+                        <p><a href="https://platzi.com/p/omarleal2503/curso/1339-fundamentos-javascript/diploma/detalle/" target="_blank">The fundamentals of JavaScript </a></p>
+                        <p><a href="https://platzi.com/p/omarleal2503/curso/1807-scope/diploma/detalle/" target="_blank">Closures and Scope in JavaScript </a></p>
                         <p><a href="https://platzi.com/@omarleal2503/curso/1748-terminal/diploma/detalle/" target="_blank">Introduction to the Terminal and Command Line Course 2020</a></p>
                         <p><a href="https://platzi.com/@omarleal2503/curso/1276-terminal-2019/diploma/detalle/" target="_blank">Introduction to the Terminal and Command Line Course 2019</a></p>
 
