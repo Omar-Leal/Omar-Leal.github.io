@@ -323,9 +323,7 @@
   
 }
 
-.jobsList {
-  padding-left: 56.5px;
-}
+
   
   }
   
@@ -448,7 +446,7 @@
 
 .experienceContainer {
 	width: 100%;
-	height: 682px;
+	min-height: 682px;
 	margin-top: 26px;
 	margin-left: auto;
 	margin-right: auto;  
