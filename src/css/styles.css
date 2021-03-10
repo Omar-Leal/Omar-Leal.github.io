@@ -85,7 +85,7 @@ h4 {
 }
 
 .header-section {
-  height: 120px;
+  height: 90px;
   position: absolute;
   width: 100%;
   top: 0;
@@ -97,7 +97,7 @@ h4 {
   position: sticky;
   background-color: black;
   border: none;
-  height: 100px;
+  height: 70px;
 }
 
 .header {
@@ -130,7 +130,7 @@ h4 {
 .main-ol a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -143,7 +143,7 @@ h4 {
 }
 
 .main-logo img {
-  height: 70px;
+  height: 50px;
   animation-duration: 3s;
   animation-name: fade;
 }

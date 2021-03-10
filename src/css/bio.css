@@ -1,77 +1,60 @@
-.bio{		
-	min-height: 51.5625em;
-	padding-top: 125px;
-	text-align: center;
-	margin-bottom: 20%; 
-	color: #777777;
-	     
-}
-  
-.bio-head {  
-	width: 100%;
-	margin-bottom: 1.25em;
-}  
-    
-.bio-h2{
-	font-size: calc(18px + 2vw);
-	color: rgb(93 93 93);
-}
-  
-.bio-text {	
-	font-size: 1.125em;	
-	color: #777777;
-	max-width: 500px;
-	width: 100%;
-	margin: 28px auto;  
-}
-    
-.cuadros{	
-	min-height: 482px;	
-	margin: 0 auto;	
-	display: flex;  	
-	align-items: center;	
-	position: relative; 
-	top: 60px; 		
-} 
- 
-.cuadrosParrafos{
-  padding-top: 28px;
-  font-size: 1em;
-}
-  
-.cuadro1{	  
-	min-height: 436px;
-	max-width: 403px;
-	padding: 80px 40px;
-	box-shadow: 0 0 10px 0 rgba(0,0,0,0.18);
-	background-color: white;
-	color: #777777;
-  border-radius: 12px;  	
-}
-  
-.cuadro2{  		
-	min-height: 420px;
-	max-width: 403px;
-	padding: 75px 40px;
-	box-shadow: 0 4px 16px rgba(32,33,36,.16);
-	background-color: #7bb0e7;
-	background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);	
-	z-index: 4;
-	color: rgb(235, 235, 235);
-	border-radius: 12px;			
-}
-  
-.cuadro3{	  
-	min-height: 436px;
-	max-width: 403px;
-	padding: 80px 40px;
-	box-shadow: 0 0 10px 0 rgba(0,0,0,0.18);
-	background-color: white;
-	color: #777777;
-	border-radius: 12px;
+.bio {
+  min-height: 51.5625em;
+  padding-top: 125px;
+  text-align: center;
+  margin-bottom: 20%;
+  color: #777777;
 }
 
-.fab {
-	font-size: 48px;
+.bio-head {
+  width: 100%;
+  margin-bottom: 1.25em;
 }
 
+.bio-h2 {
+  font-size: calc(18px + 2vw);
+  color: rgb(93 93 93);
+}
+
+.bio-text {
+  font-size: 1.125em;
+  color: #777777;
+  max-width: 500px;
+  width: 100%;
+  margin: 28px auto;
+}
+
+.education__section {
+  min-height: 482px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 60px;
+  width: 100%;
+}
+
+.education__container {
+  min-height: inherit;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+}
+
+.education--courses {
+  background-color: lightblue;
+  width: 364px;
+}
+
+.education--courses > img {
+  max-width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+
+.education--courses:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease;
+  border: none;
+}
