@@ -1,150 +1,60 @@
-.about-section {
-  padding-top: 22%;
+.about__section {
+  height: 60rem;
 }
 
-.about-content {
+.about__container {
   width: 100%;
-  height: auto;
-  padding: 0;
-  height: inherit;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 35rem 46rem;
+  gap: 8rem;
+  justify-content: center;
+  background: lightgreen;
+  padding-top: 10rem;
+}
+
+.about__profile--container {
+  border: 1px solid red;
+  height: 42.2rem;
   display: flex;
-  flex-wrap: wrap;
-  min-height: 360px;
-  margin-bottom: 5em;
-  margin-top: 28px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.aboutMe {
-  flex: 1;
-  padding: 0;
+.about__profile--foto {
+  width: 10rem;
+  border: 1px dashed black;
 }
 
-.aboutMe-title {
-  font-size: 36px;
-  margin-bottom: 25px;
-  color: rgb(93 93 93);
+.about__profile--foto > img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.about__profile--myName {
+  display: block;
+  border: 1px dashed black;
+  width: 100%;
   text-align: center;
-
-  width: 91%;
+  font-size: 2rem;
+  height: 4rem;
+  line-height: 4rem;
 }
 
-.aboutMe-description {
-  font-size: 1.125em;
-  line-height: 26px;
-  color: #777777;
-  width: 90%;
+.about__profile--resume {
+  border: 1px dashed black;
+  padding: 5rem;
+}
+
+.skill__container {
+  border: 1px solid black;
+  height: 42.2rem;
 }
 
 /* Skills section */
 
-.skill-wrapper {
-  flex: 1;
-}
-
-.skills {
-  max-width: 100%;
-}
-
-.skills-container {
-  height: inherit;
-}
-
-.skills-title {
-  font-size: 36px;
-  color: rgb(93 93 93);
-  text-align: center;
-  width: 91%;
-}
-
-.skills h3 {
-  font-size: 20px;
-  margin-bottom: 15px;
-  margin-top: 30px;
-  color: #777777;
-}
-
-.skills li {
-  margin: 20px 0;
-  list-style: none;
-}
-
-.bar {
-  background: #eeeeee;
-  display: block;
-  height: 12px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.bar span {
-  height: 12px;
-  float: left;
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-}
-
-.html {
-  width: 90%;
-  animation: html 7s;
-  animation-iteration-count: infinite;
-}
-
-.ccs3 {
-  width: 65%;
-  animation: css3 7s;
-  animation-iteration-count: infinite;
-}
-
-.javascript {
-  width: 75%;
-  animation: javascript 7s;
-  animation-iteration-count: infinite;
-}
-
-.xd {
-  width: 60%;
-  animation: xd 7s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes html {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@keyframes css3 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 65%;
-  }
-}
-
-@keyframes javascript {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 75%;
-  }
-}
-
-@keyframes xd {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 65%;
-  }
-}
-
 .stacks__container {
   height: inherit;
-
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: 5rem;
@@ -154,5 +64,5 @@
 }
 
 .stacks {
-  width: 55px;
+  width: 5.5rem;
 }
