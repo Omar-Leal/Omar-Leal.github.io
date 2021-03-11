@@ -15,15 +15,16 @@
 
 .about__profile--container {
   border: 1px solid red;
+  border-radius: 4rem;
   height: 42.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 2rem;
 }
 
 .about__profile--foto {
   width: 10rem;
-  border: 1px dashed black;
 }
 
 .about__profile--foto > img {
@@ -33,7 +34,6 @@
 
 .about__profile--myName {
   display: block;
-  border: 1px dashed black;
   width: 100%;
   text-align: center;
   font-size: 2rem;
@@ -42,27 +42,80 @@
 }
 
 .about__profile--resume {
-  border: 1px dashed black;
-  padding: 5rem;
+  padding: 2rem;
+  font-size: 1.6rem;
 }
 
-.skill__container {
-  border: 1px solid black;
-  height: 42.2rem;
+.contact {
+  width: 100%;
+  height: 100%;
+}
+
+.contact > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 2rem auto;
+}
+
+.contact li {
+  display: block;
+  list-style: none;
+  margin-bottom: 0.4rem;
+}
+.contact a {
+  text-decoration: none;
+}
+
+.fas {
+  font-size: 1.4rem;
+  color: #979797;
+}
+
+.a-icons {
+  color: #979797;
+  font-size: 1.4rem;
 }
 
 /* Skills section */
 
-.stacks__container {
+.skill__container {
+  height: 42.2rem;
+  padding-top: 2rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
   height: inherit;
+}
+
+.skills--title {
+  font-size: 2.8rem;
+  display: block;
+  height: 4rem;
+  min-height: 4rem;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.stacks__container {
+  align-items: center;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: 5rem;
-  grid-gap: 3.125rem;
-  align-items: center;
   justify-content: center;
+  grid-gap: 3.125rem;
+  min-height: 22rem;
+  padding-top: 2.9rem;
 }
 
 .stacks {
   width: 5.5rem;
+}
+
+.stacks > img {
+  max-width: 100%;
 }
