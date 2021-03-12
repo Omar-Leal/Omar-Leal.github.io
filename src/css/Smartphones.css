@@ -14,7 +14,6 @@
 /*    ----- About section --- */
 
 .about__profile--container {
-  border: 1px solid red;
   border-radius: 4rem;
   height: 42.2rem;
   display: flex;
@@ -30,15 +29,6 @@
 .about__profile--foto > img {
   max-width: 100%;
   border-radius: 50%;
-}
-
-.about__profile--myName {
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: 2rem;
-  height: 4rem;
-  line-height: 4rem;
 }
 
 .about__profile--resume {

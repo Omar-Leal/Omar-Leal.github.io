@@ -3,7 +3,8 @@
 }
 
 .header-section {
-  background-color: black;
+  background: linear-gradient(to right, #476ade, #c74c93);
+  box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
   height: 75px;
 }
 
@@ -50,7 +51,7 @@
   z-index: 4;
   height: auto;
   width: 100vw;
-  background: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background: linear-gradient(to right, #476ade, #c74c93);
 }
 .burger-logo {
   align-items: center;
