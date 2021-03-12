@@ -1,5 +1,5 @@
 window.onscroll =  function() { stickyHeader() };
-const deviceSize = window.matchMedia("(min-width: 961px)");
+const deviceSize = window.matchMedia("(min-width: 320px)");
 
   let headerSection = document.getElementById('menu-id');
   let sticky = headerSection.offsetTop;
