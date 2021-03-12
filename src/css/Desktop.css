@@ -1,0 +1,525 @@
+.container {
+  height: inherit;
+  width: 100%;
+  max-width: 115rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: inherit;
+  justify-content: inherit;
+}
+
+.header-section {
+  height: 9rem;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.stickyHeader {
+  position: sticky;
+  background-color: black;
+  border: none;
+  height: 7rem;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: inherit;
+}
+
+/* -- Main Area --- */
+.main-navigation {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-ol {
+  height: inherit;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  animation-duration: 3s;
+  animation-name: fade;
+}
+
+.main-ol li {
+  margin-right: 5.6rem;
+}
+
+.main-ol a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.84;
+}
+
+.main-logo {
+  display: inherit;
+  align-items: center;
+  animation-duration: 3s;
+  animation-name: fade;
+  width: 14.6rem;
+  line-height: 0;
+}
+
+.main-logo img {
+  max-width: 100%;
+  height: 5rem;
+  animation-duration: 3s;
+  animation-name: fade;
+}
+
+#icon-menu {
+  display: none;
+}
+
+/*     -----  Main Section ----       */
+/*     -----  Main Section ----       */
+/*     -----  Main Section ----       */
+
+.main-section {
+  background: #fc466b;
+  background: -webkit-linear-gradient(to right, #476ade, #c74c93);
+  background: linear-gradient(to right, #476ade, #c74c93);
+
+  width: 100%;
+  min-height: 45rem;
+}
+
+#particles-js {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+}
+
+.hero__container {
+  color: white;
+  min-height: 45rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__container > h1 {
+  font-size: 3.6rem;
+  opacity: 0.84;
+}
+
+.hero__container > h2 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  opacity: 0.84;
+}
+
+.carrusel {
+  animation-duration: 2s;
+  animation-name: carrusel;
+}
+
+@keyframes carrusel {
+  0% {
+    transform: translateX(70px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.carrusel-left {
+  animation-duration: 2s;
+  animation-name: carrusel-left;
+}
+
+@keyframes carrusel-left {
+  0% {
+    transform: translateX(-70px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about__section {
+  height: 60rem;
+}
+
+.about__container {
+  width: 100%;
+  height: inherit;
+  display: grid;
+  grid-template-columns: 35rem 46rem;
+  gap: 8rem;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.about__profile--container {
+  border: 1px solid red;
+  border-radius: 4rem;
+  height: 42.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.about__profile--foto {
+  width: 10rem;
+}
+
+.about__profile--foto > img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.about__profile--myName {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  height: 4rem;
+  line-height: 4rem;
+}
+
+.about__profile--resume {
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+
+.contact {
+  width: 100%;
+  height: 100%;
+}
+
+.contact > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 2rem auto;
+}
+
+.contact li {
+  display: block;
+  list-style: none;
+  margin-bottom: 0.4rem;
+}
+.contact a {
+  text-decoration: none;
+}
+
+.fas {
+  font-size: 1.4rem;
+  color: #979797;
+}
+
+.a-icons {
+  color: #979797;
+  font-size: 1.4rem;
+}
+
+/* Skills section */
+
+.skill__container {
+  height: 42.2rem;
+  padding-top: 2rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+.skills--title {
+  font-size: 2.8rem;
+  display: block;
+  height: 4rem;
+  min-height: 4rem;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.stacks__container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 5rem;
+  justify-content: center;
+  grid-gap: 3.125rem;
+  min-height: 22rem;
+  padding-top: 2.9rem;
+}
+
+.stacks {
+  width: 5.5rem;
+}
+
+.stacks > img {
+  max-width: 100%;
+}
+
+/* ---- footer area --- */
+
+.main-footer {
+  display: flex;
+  min-height: 4em;
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  color: #b8b8b8;
+  border-radius: 12px 12px 0 0;
+  font-size: 14px;
+  animation-duration: 3s;
+  animation-name: fade;
+}
+
+/* SECTION EXPERIENCE */
+
+.experience-section {
+  min-height: 57.625em;
+  display: flex;
+  background: #fc466b;
+  background: -webkit-linear-gradient(to right, #476ade, #c74c93);
+  background: linear-gradient(to right, #476ade, #c74c93);
+  border-radius: 12px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.18);
+  padding-top: 2.8rem;
+}
+
+.wrapper2 {
+  width: 100%;
+  height: auto;
+}
+
+.experienceContainer {
+  width: 100%;
+  min-height: 42.625em;
+  margin-top: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.containerButtoms {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5.6em;
+}
+
+.experienceButtoms {
+  display: flex;
+  justify-content: space-around;
+  width: 92%;
+}
+
+.experiencie__title {
+  font-size: 3rem;
+}
+
+.jobsList-1 {
+  max-width: 46rem;
+  margin: auto;
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  list-style: none;
+}
+
+.jobsList-1::before {
+  content: "";
+  min-height: 100%;
+  width: 0.3rem;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  left: 8%;
+  transform: translateX(-50%);
+  top: -5px;
+}
+
+.jobsList-1 li {
+  margin-bottom: 6rem;
+  position: relative;
+}
+
+.spanList {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: block;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  left: 8%;
+  top: 30px;
+  transform: translateX(-50%);
+  margin-bottom: 50%;
+}
+
+.spanList::before {
+  content: "";
+  height: 7px;
+  width: 7px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 52%;
+  top: 4px;
+  transform: translateX(-50%);
+  transition: 0.2s ease;
+}
+
+.jobItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+}
+
+.jobItem-title {
+  transition: 0.5s;
+  transform-origin: left;
+}
+
+.jobItem-title p {
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.jobItem-content h4 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.jobItem-content p {
+  font-size: 2.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.jobItem-content p a {
+  color: white;
+  text-decoration: none;
+}
+
+/* IT COURSES */
+
+.bio {
+  min-height: 51.5625em;
+  padding-top: 125px;
+  text-align: center;
+  margin-bottom: 20%;
+  color: #777777;
+}
+
+.bio-head {
+  width: 100%;
+  margin-bottom: 1.25em;
+}
+
+.bio-h2 {
+  font-size: calc(18px + 2vw);
+  color: rgb(93 93 93);
+}
+
+.bio-text {
+  font-size: 1.125em;
+  color: #777777;
+  max-width: 500px;
+  width: 100%;
+  margin: 28px auto;
+}
+
+.education__section {
+  min-height: 482px;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 60px;
+  width: 100%;
+}
+
+.education__container {
+  min-height: inherit;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px; */
+}
+
+.education--courses {
+  width: 360px;
+  padding: 1.2rem;
+}
+
+.education--courses > img {
+  max-width: 100%;
+  display: block;
+  border-radius: 4px;
+  box-shadow: 2px -1px 4px 0px rgb(21 99 157 / 16%);
+}
+
+.education--courses:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease;
+  border: none;
+}
+
+/*   FOOTER SECTION   */
+
+.footer1 {
+  height: inherit;
+  width: 100%;
+  flex: 50%;
+  text-align: center;
+  padding: 1em;
+}
+
+.footer2 {
+  height: inherit;
+  width: 100%;
+  flex: 50%;
+  text-align: center;
+  padding: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+  .education--courses {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .education__container {
+    padding-left: 16%;
+  }
+
+  .education--courses {
+    width: 85%;
+  }
+}

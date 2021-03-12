@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Avenir LT Std 55 Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 55 Roman"),
+    url(../fonts/AvenirLTStd-Roman.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 85 Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 85 Heavy"),
+    url(../fonts/AvenirLTStd-Heavy.woff) format("woff");
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Avenir LT Std 55 Roman";
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Avenir LT Std 85 Heavy";
+}
+
+.scrolling {
+  opacity: 0;
+  transition: all 2s;
+}
+
+.showTop {
+  animation: showTop;
+  animation-duration: 2s;
+}
+
+@keyframes showTop {
+  0% {
+    transform: translateY(70px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translate(100%);
+  }
+}
