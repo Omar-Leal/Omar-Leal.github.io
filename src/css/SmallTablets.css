@@ -7,7 +7,7 @@
 }
 
 .about__section {
-  height: 95rem;
+  min-height: 95rem;
 }
 
 .about__container {
@@ -17,7 +17,6 @@
   grid-template-columns: 35rem;
   gap: 8rem;
   justify-content: center;
-  padding-top: 10rem;
 }
 
 .main-footer {

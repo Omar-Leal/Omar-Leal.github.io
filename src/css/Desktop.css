@@ -164,18 +164,25 @@
 
 .about__section {
   background-color: #f6f6f6;
+  min-height: 70rem;
+}
 
-  height: 60rem;
+.about__title {
+  font-size: calc(18px + 2vw);
+  display: block;
+  text-align: center;
+  height: 18rem;
+  line-height: 18rem;
 }
 
 .about__container {
   width: 100%;
-  height: inherit;
+  min-height: inherit;
   display: grid;
   grid-template-columns: 35rem 46rem;
   gap: 8rem;
   justify-content: center;
-  padding-top: 10rem;
+  padding-top: 1.5rem;
 }
 
 .about__profile--container {
@@ -322,7 +329,7 @@
   background: #fc466b;
   background: -webkit-linear-gradient(to right, #476ade, #c74c93);
   background: linear-gradient(to right, #476ade, #c74c93);
-  border-radius: 12px;
+  border-radius: 50px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.18);
   padding-top: 6rem;
 }
