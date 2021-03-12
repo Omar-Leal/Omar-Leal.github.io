@@ -19,7 +19,8 @@
 
 .stickyHeader {
   position: sticky;
-  background-color: black;
+  background: linear-gradient(to right, #476ade, #c74c93);
+  box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
   border: none;
   height: 7rem;
 }
@@ -161,6 +162,8 @@
 }
 
 .about__section {
+  background-color: #f6f6f6;
+
   height: 60rem;
 }
 
@@ -175,8 +178,9 @@
 }
 
 .about__profile--container {
-  border: 1px solid red;
+  background-color: #fff;
   border-radius: 4rem;
+  box-shadow: 0 6px 15px rgb(36 37 38 / 8%);
   height: 42.2rem;
   display: flex;
   flex-direction: column;
@@ -194,6 +198,7 @@
 }
 
 .about__profile--myName {
+  color: #595858;
   display: block;
   width: 100%;
   text-align: center;
@@ -203,8 +208,10 @@
 }
 
 .about__profile--resume {
+  color: #595858;
   padding: 2rem;
   font-size: 1.6rem;
+  letter-spacing: 0.39px;
 }
 
 .contact {
@@ -225,8 +232,10 @@
   display: block;
   list-style: none;
   margin-bottom: 0.4rem;
+  color: #595858;
 }
 .contact a {
+  color: #595858;
   text-decoration: none;
 }
 
@@ -305,7 +314,7 @@
   background: linear-gradient(to right, #476ade, #c74c93);
   border-radius: 12px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.18);
-  padding-top: 2.8rem;
+  padding-top: 6rem;
 }
 
 .wrapper2 {
@@ -337,6 +346,7 @@
 
 .experiencie__title {
   font-size: 3rem;
+  opacity: 0.9;
 }
 
 .jobsList-1 {
@@ -406,17 +416,20 @@
 .jobItem-title p {
   font-size: 1.4rem;
   margin-bottom: 0.4rem;
+  opacity: 0.9;
 }
 
 .jobItem-content h4 {
   text-transform: uppercase;
   font-size: 2.4rem;
   margin-bottom: 0.4rem;
+  opacity: 0.9;
 }
 
 .jobItem-content p {
-  font-size: 2.1rem;
+  font-size: 1.6rem;
   margin-bottom: 0.8rem;
+  opacity: 0.9;
 }
 
 .jobItem-content p a {
