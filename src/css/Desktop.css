@@ -237,6 +237,7 @@
 .contact a {
   color: #595858;
   text-decoration: none;
+  opacity: 0.7;
 }
 
 .fas {
