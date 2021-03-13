@@ -21,6 +21,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
+  background: #476ade;
   background: linear-gradient(to right, #476ade, #c74c93);
   zoom: 0;
 }
