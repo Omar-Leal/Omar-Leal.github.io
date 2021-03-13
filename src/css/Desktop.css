@@ -10,7 +10,6 @@
 
 .header-section {
   box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
-  border-radius: 0 0 30px 30px;
   height: 7rem;
   position: absolute;
   width: 100%;
@@ -23,7 +22,6 @@
   position: sticky;
   background: linear-gradient(to right, #476ade, #c74c93);
   box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
-  border-radius: 0 0 30px 30px;
   border: none;
   height: 7rem;
 }
@@ -167,6 +165,7 @@
 .about__section {
   background-color: #f6f6f6;
   min-height: 70rem;
+  border-radius: 4rem;
 }
 
 .about__title {
@@ -334,7 +333,6 @@
   background: -webkit-linear-gradient(to right, #476ade, #c74c93);
   background: linear-gradient(to right, #476ade, #c74c93);
   border-radius: 30px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.18);
   padding-top: 6rem;
 }
 
@@ -460,6 +458,12 @@
 
 /* IT COURSES */
 
+.offering {
+  background-color: #f6f6f6;
+  border-radius: 4rem;
+}
+
+
 .bio {
   min-height: 51.5625em;
   padding-top: 125px;
@@ -516,7 +520,7 @@
   max-width: 100%;
   display: block;
   border-radius: 4px;
-  box-shadow: 2px -1px 4px 0px rgb(21 99 157 / 16%);
+  box-shadow: 2px -1px 4px 0px rgb(119 124 128 / 16%);
 }
 
 .education--courses:hover {
@@ -574,5 +578,3 @@
 
 
 
-
-}
