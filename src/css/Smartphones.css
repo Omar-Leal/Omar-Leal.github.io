@@ -2,10 +2,7 @@
   max-width: 480px;
 }
 
-.main-logo {
-  margin-left: 80px;
-  margin-right: 80px;
-}
+
 
 .hero__container > h1 {
   font-size: 2.6rem;
@@ -139,4 +136,8 @@
 
 .jobsList-1 {
   width: 100%;
+}
+
+.bio-text {
+  width: 90%;
 }
