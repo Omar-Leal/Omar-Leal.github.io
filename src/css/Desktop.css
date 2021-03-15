@@ -550,6 +550,55 @@
   padding: 1em;
 }
 
+.project__container {
+  width: 100%;
+  min-height: inherit;
+  display: grid;
+  grid-template-columns: repeat(3, 35rem);
+  gap: 8rem;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.project__card {
+  background-color: #fff;
+  border: 2px dashed black;
+  border-radius: 4rem;
+  box-shadow: 0 6px 15px rgb(36 37 38 / 8%);
+  height: 42.2rem;
+  max-height: 42.2rem;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 40% 60%;
+  overflow: hidden;
+  
+}
+
+.project__card--image {
+  background-color:  blueviolet;
+
+  
+}
+.project__card--image > img {
+}
+
+.project__card--info {
+  background-color: yellowgreen;
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+.projects__descriptions {
+  background-color: yellow;
+}
+
+.links__container {
+  background-color: tomato;
+}
+
+
+
 @media screen and (max-width: 1200px) {
   .education--courses {
     width: 50%;
