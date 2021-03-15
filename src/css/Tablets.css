@@ -104,3 +104,8 @@
   margin-bottom: 10px;
   position: static;
 }
+
+.project__container { 
+  grid-template-columns: repeat(1, 35rem);
+   
+}
