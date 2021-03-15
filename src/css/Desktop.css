@@ -591,10 +591,31 @@
 
 .projects__descriptions {
   background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1.2rem;
+  font-size: 1.5rem;
+  
 }
+
+.projects__descriptions > h3 {
+  
+}
+
+.projects__descriptions > p {
+  width: 80%;
+}
+
+
 
 .links__container {
   background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
