@@ -575,11 +575,15 @@
 }
 
 .project__card--image {
-  
+   display: flex;
+   justify-content: center;
+   align-items: center;   
 
   
 }
 .project__card--image > img {
+  border-radius: 1rem;
+  width: 15rem;
 }
 
 .project__card--info {
