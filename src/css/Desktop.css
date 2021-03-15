@@ -550,14 +550,17 @@
   padding: 1em;
 }
 
+.breathing__space {
+  padding-bottom: 7.5rem;
+}
+
 .project__container {
   width: 100%;
   min-height: inherit;
   display: grid;
   grid-template-columns: repeat(3, 35rem);
   gap: 6rem;
-  justify-content: center;
-  padding-top: 1.5rem;
+  justify-content: center;  
 }
 
 .project__card {
