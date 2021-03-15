@@ -105,7 +105,10 @@
   position: static;
 }
 
-.project__container { 
-  grid-template-columns: repeat(1, 35rem);
-   
+@media screen and (max-width: 780px) {
+  .project__container { 
+    grid-template-columns: repeat(1, 35rem);
+     
+  }
+  
 }

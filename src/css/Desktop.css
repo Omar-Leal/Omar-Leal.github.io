@@ -561,8 +561,8 @@
 }
 
 .project__card {
-  background-color: #fff;
-  border: 2px dashed black;
+  background-color: #476ade; 
+  
   border-radius: 4rem;
   box-shadow: 0 6px 15px rgb(36 37 38 / 8%);
   height: 42.2rem;
@@ -575,7 +575,7 @@
 }
 
 .project__card--image {
-  background-color: #476ade;
+  
 
   
 }
@@ -583,19 +583,22 @@
 }
 
 .project__card--info {
-  background-color: yellowgreen;
+  
   display: grid;
   grid-template-columns: 1fr;
+  background-color: #fff;
+  
   
 }
 
 .projects__descriptions {
-  background-color: yellow;
+  color: rgb(93, 93, 93);  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;  
   font-size: 1.5rem;
+ 
   
 }
 
@@ -614,11 +617,18 @@
 
 
 .links__container {
-  background-color: tomato;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.links__container > a {
+  color: rgb(93, 93, 93);
+  font-size: 1.4rem;
+  text-decoration: none;
+  line-height: 2rem;
 }
 
 
