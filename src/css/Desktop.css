@@ -564,8 +564,7 @@
 }
 
 .project__card {
-  background-color: #476ade; 
-  
+  background-color: #476ade;
   border-radius: 4rem;
   box-shadow: 0 6px 15px rgb(36 37 38 / 8%);
   height: 42.2rem;
@@ -589,8 +588,7 @@
   width: 15rem;
 }
 
-.project__card--info {
-  
+.project__card--info {  
   display: grid;
   grid-template-columns: 1fr;
   background-color: #fff;
@@ -623,8 +621,7 @@
 
 
 
-.links__container {
-  
+.links__container {  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -639,8 +636,14 @@
 }
 
 
-
 @media screen and (max-width: 1200px) {
+  
+.main-logo {
+  margin-left: 5%;
+}
+
+
+
   .education--courses {
     width: 50%;
   }
@@ -653,6 +656,8 @@
 }
 
 @media screen and (max-width: 1100px) {
+  
+
   .education__container {
     padding-left: 14%;
   }

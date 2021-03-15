@@ -76,6 +76,13 @@
   color: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
 }
 
+.about__container {
+  
+  grid-template-columns: 35rem;
+ 
+  
+}
+
 .main-ol {
   display: flex;
   flex-direction: column;
