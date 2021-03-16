@@ -497,7 +497,6 @@
 
 .education__section {
   min-height: 482px;
-
   display: flex;
   align-items: center;
   position: relative;
@@ -589,6 +588,7 @@
 .project__container:hover .project__card:hover {
   transform: scale(1.2);
   opacity: 1;
+  overflow: hidden;
 }
 
 
