@@ -487,6 +487,15 @@
   line-height: 2.2rem;
 }
 
+
+.offering {
+  background-color: #f6f6f6;
+  border-radius: 4rem;
+  min-height: 245rem;
+  padding-bottom: 3rem;
+}
+
+
 .education__section {
   min-height: 482px;
 
@@ -508,6 +517,8 @@
 .education--courses {
   width: 360px;
   padding: 1.2rem;
+  transition: 550ms all;
+  transform-origin: center;
 }
 
 .education--courses > img {
@@ -518,7 +529,7 @@
 }
 
 .education--courses:hover {
-  transform: scale(1.2);
+  transform: scale(1.8);
   transition: 0.2s ease;
   border: none;
 }

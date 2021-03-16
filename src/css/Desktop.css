@@ -518,7 +518,7 @@
   width: 360px;
   padding: 1.2rem;
   transition: 550ms all;
-  transform-origin: cente
+  transform-origin: center;
 }
 
 .education--courses > img {
@@ -529,7 +529,7 @@
 }
 
 .education--courses:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
   transition: 0.2s ease;
   border: none;
 }
