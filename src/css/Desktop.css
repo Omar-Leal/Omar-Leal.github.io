@@ -516,7 +516,7 @@
 .education--courses {
   width: 360px;
   padding: 1.2rem;
-  transition: 550ms all;
+  transition: 650ms all;
   transform-origin: center;
 }
 
@@ -528,7 +528,7 @@
 }
 
 .education--courses:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
   transition: 0.2s ease;
   border: none;
 }
@@ -575,20 +575,19 @@
   grid-template-columns: 100%;
   grid-template-rows: 40% 60%;
   overflow: hidden;
-  transition: 550ms all;
+  transition: 350ms all;
   transform-origin: center;
   
 }
 
 
-.project__container:hover  .project__card {
+/* .project__car:hover  {
   opacity: 0.3;
-}
+} */
 
 .project__container:hover .project__card:hover {
   transform: scale(1.2);
-  opacity: 1;
-  overflow: hidden;
+  opacity: 1;  
 }
 
 
