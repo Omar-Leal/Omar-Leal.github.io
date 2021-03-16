@@ -551,11 +551,11 @@
   grid-template-columns: repeat(3, 35rem);
   gap: 6rem;
   justify-content: center;  
+ 
 }
 
 .project__card {
-  background-color: #476ade; 
-  
+  background-color: #476ade;   
   border-radius: 4rem;
   box-shadow: 0 6px 15px rgb(36 37 38 / 8%);
   height: 42.2rem;
@@ -564,9 +564,18 @@
   grid-template-columns: 100%;
   grid-template-rows: 40% 60%;
   overflow: hidden;  
+  transition: 550ms all;
+  transform-origin: center 
 }
 
+.project__container:hover  .project__card {
+  opacity: 0.3;
+}
 
+.project__container:hover .project__card:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
 
 
 .project__card--image {

@@ -517,6 +517,8 @@
 .education--courses {
   width: 360px;
   padding: 1.2rem;
+  transition: 550ms all;
+  transform-origin: cente
 }
 
 .education--courses > img {
@@ -574,8 +576,8 @@
   grid-template-columns: 100%;
   grid-template-rows: 40% 60%;
   overflow: hidden;
-  transition: 650ms all;
-  transform-origin: center ;
+  transition: 550ms all;
+  transform-origin: center;
   
 }
 
