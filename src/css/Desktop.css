@@ -97,9 +97,9 @@
 
 #particles-js {
   width: 100vw;
-  height: 100vh;
-  position: absolute;
-  z-index: 99;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
 }
 
 .hero__container {
@@ -577,6 +577,8 @@
   overflow: hidden;
   transition: 350ms all;
   transform-origin: center;
+  position: relative;
+
   
 }
 
