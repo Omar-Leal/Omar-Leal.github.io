@@ -166,7 +166,7 @@
 .about__section {
   background-color: #f6f6f6;
   min-height: 70rem;
-  border-radius: 4rem;
+  border-radius: 2rem;
 }
 
 .about__title {
@@ -305,10 +305,12 @@
 
 .stacks {
   width: 5.5rem;
+
 }
 
 .stacks > img {
-  max-width: 100%;
+  width: 5rem;
+  object-fit: cover;
 }
 
 /* ---- footer area --- */
@@ -450,6 +452,10 @@
   font-size: 1.6rem;
   margin-bottom: 0.8rem;
   opacity: 0.9;
+}
+
+.jobItem-content h5 {
+  font-weight: 400;
 }
 
 .jobItem-content p a {
